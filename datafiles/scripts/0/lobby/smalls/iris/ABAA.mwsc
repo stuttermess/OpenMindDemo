@@ -1,0 +1,43 @@
+face p 0 0
+p
+line "Y'know,|p| I just realized...|p| I forgot to get that girl's name.|p|"
+face s 1 0
+s
+line "You cleared up the line situation at least,|p| right?"
+face p 0 2
+p
+line "Yeah...|p| I mean,|p| kinda?"
+line "I'm still not into the idea of playing against her."
+face p 1 0
+p
+line "I mean,|p| she's nice enough."
+face p 0 0
+p
+line "There's definitely something off about her though."
+face p 0 2
+p
+line "She's planning on investing in Mindscape Co. if she wins."
+face s 1 0
+s
+line "Honestly not a bad idea."
+face s 0 1
+s
+line "Having some stock in this company is probably a lucrative investment."
+p
+line "Man,|p| I can't believe you."
+face p 1 2
+p
+line "Does playing MINDWAVE secretly turn people into corporate shills?"
+face s 0 0
+s
+line "Probably not."
+face s 0 1
+s
+line "Though,|p| if I end up buying their stock,|p| I hope so."
+
+setflag _0.smalls.iris 2
+setflag _0.smalls.iris.branch ABAA
+function lobby_tick_time 0.5
+goto script 0/lobby/smalls/return
+
+

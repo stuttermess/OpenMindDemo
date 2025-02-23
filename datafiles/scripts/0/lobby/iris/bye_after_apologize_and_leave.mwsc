@@ -1,0 +1,13 @@
+face p 0 4
+p
+line "Uh,|p| I gotta go, actually."
+i
+line "Okay?|p| Bye."
+
+setflag _0.pandora.alone 0
+
+
+
+
+
+

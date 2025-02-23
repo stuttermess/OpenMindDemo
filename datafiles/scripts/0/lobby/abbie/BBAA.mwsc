@@ -1,0 +1,89 @@
+
+s
+line "Hey Abbie,|p| we're about to get going,|p| tournament's starting soon."
+line "It was nice meeting you."
+line "Thanks for giving a new nickname for Panda,|p| too."
+p
+line "Please,|p| stop, dude."
+a
+line "What.|p| you don't like it?"
+p
+line "Only when he says it,|p| you're good."
+a
+line "Yay!"
+line "So,|p| before you go,|p| can I have your numbers?"
+line "Wouldn't want to never see you again!"
+s
+line "Oh sure,|p| here's mine."
+line "I'll just give you Panda's too."
+p
+line "I didn't give you my express permission for \nthat,|p| but cool."
+line "I guess that's that."
+line "See you around Abbie,|p| bye."
+s
+line "Yeah,|p| see you later."
+a
+line "Wait,|p| Panda!"
+line "Before you leave!"
+p
+line "Yea-|skip| "
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setflag _0.smalls.abbie 1
+setflag _0.abbie.read.BBAA 1
+setflag _0.abbie.done 1
+function lobby_timer_set_interrupt 0
+function lobby_tick_time
+end_transition perlin
+sequence id "sqcs_0_abbiehug" script "sequence/0/abbiehug"
+
+
+
+
+
+

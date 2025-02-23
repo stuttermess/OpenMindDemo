@@ -1,0 +1,68 @@
+face p 0 2
+face s 0 0
+p
+line "Okay,|p| ignoring all the bad things that this game could do to my brain."
+face p 0 0
+p
+line "How can I maximize my chances of winning?"
+face r 0 0
+r
+line "Well,|p| it's honestly just intuition."
+face r 1 0
+r
+line "I can't give you any real advice."
+face r 0 0
+r
+line "Not if you don't have the experience to back it up."
+face p 0 2
+p
+line "Nah bro."
+line "You can't just tell me you have NO advice."
+line "Especially after filling my mind up with worries about-"
+face p 0 3
+p
+line "Wait,|p| are you trying to throw me off?"
+line "Like,|p| fill up my head with weird vibes so that I perform worse?"
+face r 1 1
+r
+line "Not at all.|p| Any MINDWAVE pro would tell you the same."
+face p 0 0
+face s 0 2
+s
+line "I think she's being for real Pandora."
+face s 0 1
+s
+line "Most MINDWAVE skill comes from experience."
+face s 0 0
+s
+line "I was just hoping she'd have something that might help you on short notice."
+face r 2 0
+r
+line "What, are you looking for mind enhancing tea or something?"
+face p 1 0
+p
+line "Not really."
+face p 0 0
+p
+line "...Maybe?|p| Does that exist?"
+face r 2 1
+r
+line "Yes,|p| but not really."
+face r 3 1
+r
+line "Tea,|p| gum,|p| I've even seen headbands that claim to optimize MINDWAVE performance for you."
+line "They're all fake."
+face r 3 0
+r
+line "Most people who bring them to tryouts don't end up getting a spot on the team."
+face p 1 2
+p
+line "Alright so it just sounds like I've got absolutely no chance here."
+face s 0 1
+s
+line "Not with that sorta outlook."
+setflag _0.roxy.read.AAA 1
+setflag _0.roxy.branch AAA
+function lobby_tick_time
+goto script 0/lobby/roxy/questions
+

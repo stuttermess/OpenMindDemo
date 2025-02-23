@@ -1,0 +1,12 @@
+face p 0 0
+p
+line "I think we're gonna go for now."
+face r 1 0
+r
+line "Oh alright, cya."
+face s 0 0
+s
+line "Goodbye."
+
+
+

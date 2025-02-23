@@ -1,0 +1,53 @@
+face s 0 0
+face p 0 0
+p
+line "So do you guys play MINDWAVE\nmuch at all?"
+face l 0 0
+l
+line "Dude, yeah,|p| we play\ntogether at the arcade\nevery Saturday."
+face s 1 0
+s
+line "Does Fortress of Sorrow stuff\ncome up often?"
+face k 0 2
+k
+line "Somehow,|p| not often at all."
+line "It's honestly a really fun matchup."
+line "It's nice to get a break from\nEthan's nerd stuff."
+face s 0 0
+l
+line "Absolutely,|p| it's only\nchill vibes up here."
+face s 1 0
+s
+line "I totally wish I had someone to frequently play against."
+face p 0 2
+p
+line "Don't ask me.|p| I don't feel like\ngiving Mindscape Co. a buncha\nscans of my brain."
+line "Only reason I'm here right now\nis because I'd be stupid to miss\nsomething like this."
+l
+line "Nahhhhh,|p| don't worry at all.|p|\nThey don't save your brain scans."
+face l 1 0
+l
+line "I read the EULA front to back\n'cuz Kat was all worried about\nit the first time we played."
+face k 0 1
+face s 0 0
+k
+line "Didn't want them saving anything\nfrom my brain either.|p|\nThat would be super weird."
+face p 0 0
+p
+line "Isn't it weird to see each other's\nminds like that though?"
+face p 1 0
+p
+line "It feels a little too personal."
+face k 0 0
+k
+line "Not really,|p| I'm honestly\nmore uncomfortable\nwith strangers seeing my brain."
+face k 0 2
+k
+line "I'm only here right now because yeah,|p| it would be stupid to miss this."
+
+setflag _0.slate_kat.read.AAA 1
+setflag _0.slate_kat.branch AAA
+function lobby_tick_time
+goto script 0/lobby/slate_kat/questions
+
+

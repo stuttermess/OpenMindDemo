@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"dieback_file_parse",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"dieback_file_parse",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,110 @@
+face p 0 0
+p
+line "What's up with-|p 20| |skip| "
+face s 0 1
+s
+line "Slate, you should tell me about Fortress of Sorrow."
+face l 0 0
+face p 1 2
+l
+line "Sure dude. I'd love to."
+line "Fortress of Sorrow, is this old 30's an-|p 20| |skip| "
+face k 0 1
+k
+line "Maybe take it somewhere else?"
+line "Not everyone cares to hear about your boring anime."
+face l 1 0
+l
+line "Oh,|p| sure.|p| Smalls and I will just be over there."
+face l 0 0
+l
+line "If either of you care to join."
+set l x -250
+wait 1 second
+set k x 0
+face s 0 2
+checkflag nickname_panda 1
+goto marker branch26y
+goto marker branch26n
+
+marker branch26y
+
+s
+line "Be right back, Panda."
+
+goto marker branch26e
+
+marker branch26n
+
+s
+line "Be right back, Pandora."
+
+goto marker branch26e
+
+marker branch26e
+
+set s x -200
+face p 0 0
+p
+line "..."
+face k 0 0
+k
+line "..."
+set p x 0
+k
+line "Knowing how Ethan gets while\ntalking about that show..."
+line "They're gonna be a while."
+face p 1 0
+p
+line "..."
+k
+line "Uh,|p| were you gonna ask something?"
+face p 4 0
+p
+line "What?"
+k
+line "Just now,|p| before Ethan\nand your friend left."
+line "You were saying something."
+face p 1 0
+p
+line "Oh,|p| yeah,|p| uh..."
+face p 0 0
+p
+line "It was just a question for Slate."
+face p 0 2
+p
+line "Or uhhhh...|p| Ethan?"
+k
+line "Oh."
+face p 0 0
+p
+line "Yeah."
+k
+line "You could probably just ask me?"
+face k 0 2
+k
+line "I know him well enough."
+face p 1 2
+p
+line "I guess?|p| I was just gonna\nask him about his house."
+face k 0 0
+k
+line "His house?|p| Alriiiiight,|p| well\nthere's not much to say about it."
+line "He lives with his family in a crappy little apartment."
+line "It's super claustrophobic."
+face p 1 0
+p
+line "Oh,|p| alright."
+face p 1 0
+p
+line "So his family isn't your family?|p|\nLike,|p| you're not related."
+k
+line "Nope."
+
+setflag _0.pandora.alone 1
+setflag _0.slate_kat.read.BB 1
+setflag _0.slate_kat.branch BB
+function lobby_tick_time
+goto script 0/lobby/slate_kat/questions
+
+

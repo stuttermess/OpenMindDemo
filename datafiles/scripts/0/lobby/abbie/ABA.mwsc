@@ -1,0 +1,105 @@
+face s 0 1
+face p 0 0
+s
+line "So,|p| what's the deal with the little guy?"
+face a 6 2
+a
+line "Oh,|p| Tommy?|p| I made him myself!"
+s
+line "He turned out pretty cute."
+face a 6 0
+a
+line "Thank you!|p| I've made a bunch of cuter plushies."
+face s 0 0
+face a 6 2
+a
+line "They're all special,|p| but Tommy is my favorite!"
+face a 6 1
+a
+line "He's the first one I made,|p| so he's the specialest."
+face p 0 1
+p
+line "Firstborn bias."
+face a 6 3
+a
+line "Hehe,|p| maybe a little."
+face a 0 0
+a
+line "We HAD to see the tower together."
+face p 1 1
+p
+line "Sewing seems like such an annoying hobby,|p| though."
+a
+line "Why?"
+face p 0 0
+p
+line "The last time I tried it,|p| the only thing I got was pricked fingers."
+face s 0 1
+s
+line "You,|p| of all people,|p| tried sewing?"
+face p 1 0
+p
+line "Yeah,|p| I wanted to make something for my dad.|p| Didn't go down well."
+face a 1 0
+a
+line "I get why it can seem scary!|p| But it's SO worth it to push through!"
+face a 1 2
+a
+line "Even if it's super time-consuming...|p| and expensive..."
+face a 2 2
+a
+line "...and yeah,|p| my fingers end up all prickly-"
+face p 4 0
+p
+line "You're not really making it sound like my thing,|p| sorry."
+face p 0 1
+p
+line "You seem pretty good at it though."
+face a 3 1
+a
+line "Thank you!!"
+face a 4 1
+a
+line "You don't know how much that means to me!"
+face a 0 0
+a
+line "And Panda,|p| If you ever want to get back into sewing,|p| let me know!"
+line "It helps to learn with a friend."
+face p 0 1
+p
+line "Yeah,|p| I'll hit you up... "
+face p 1 1
+p
+line "Make sure to bring enough bandages for the both of us."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setflag _0.abbie.read.ABA 1
+setflag _0.abbie.branch ABA
+function lobby_tick_time
+goto script 0/lobby/abbie/questions
+

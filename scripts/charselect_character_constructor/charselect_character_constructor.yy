@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"charselect_character_constructor",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"charselect_character_constructor",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

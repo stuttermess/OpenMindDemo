@@ -1,0 +1,37 @@
+face s 0 1
+s
+line "Ethan,|p| Kat,|p| it was nice meeting you."
+face l 0 0
+l
+line "Same dude.|p| Good luck with the game you two."
+face p 0 0
+p
+line "Thanks.|p| I'm honestly not that experienced with MINDWAVE."
+face p 1 0
+p
+line "I'm kinda scared to go against either of you."
+face k 0 0
+k
+line "If you're anything like me,|p| you'll do fine against randoms.|p| Even without a ton of experience."
+face k 0 2
+k
+line "If you're anything like Ethan though,|p| maybe you should worry."
+face l 1 0
+l
+line "Dude, I am absolutely better than you at MINDWAVE."
+k
+line "Yeah?|p| We'll see which of us wins then."
+s
+line "Hahaha."
+face s 2 1
+s
+line "See you guys."
+face l 0 0
+l
+line "Peace."
+
+setflag _0.smalls.slate_kat 1
+setflag _0.slate_kat.done 1
+setflag _0.slate_kat.read.ABBA 1
+function lobby_tick_time
+

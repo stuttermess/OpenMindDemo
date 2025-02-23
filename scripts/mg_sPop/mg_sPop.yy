@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"mg_sPop",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"mg_sPop",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

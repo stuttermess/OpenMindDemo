@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"update_local_endless_score",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"update_local_endless_score",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

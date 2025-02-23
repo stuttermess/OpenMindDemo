@@ -1,0 +1,54 @@
+
+char pandora p left
+char smalls s right
+face s 1 0
+s
+line "We've got a bit of time before the first round starts..."
+face s 0 1
+s
+line "How about we walk around and meet some people?"
+face p 1 2
+p
+line "No thanks.|p| I'm just here for\nthe game."
+line "I'd rather just stand around until it starts."
+face s 1 0
+s
+line "Well,|p| you gotta think about this strategically."
+line "MINDWAVE is all about peoples' minds."
+
+
+
+
+s
+line "It might help to get a feel for a few personalities."
+face s 0 1
+s
+line "See what sorta brains you might have to deal with."
+face p 1 0
+p
+line "Man,|p| if you insist on dragging me around,|p| I guess I'll follow."
+face p 1 2
+p
+line "Doesn't have to be this whole big deal."
+s
+line "Good enough!|p| Let's see..."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setflag _0.smalls.q1 1
+setflag _0.smalls.q2 1
+
+setflag _0.lobby_intro 1
+
+

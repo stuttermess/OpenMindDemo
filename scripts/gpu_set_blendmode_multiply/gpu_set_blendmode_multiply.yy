@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"gpu_set_blendmode_multiply",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"gpu_set_blendmode_multiply",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,43 @@
+char pandora p left
+char smalls s right
+
+s
+line "You done looking around?"
+p
+option add name "Yeah, I'm done here." marker "yes"
+option add name "Actually, nah." marker "no"
+options show
+
+marker yes
+
+p
+line "Yeah,|p ,| I'm done here.|p .| Let's just wait for this thing to start."
+
+s
+line "Alright."
+function start_next_round
+skip outro
+goto marker end
+
+marker no
+
+p
+line "Actually, nah.|p .| Let's look around some more."
+
+face s 2 1
+s
+line "Alright,|p ,| alright.|p .| If you insist."
+goto marker end
+
+marker end
+
+
+
+
+
+
+
+
+
+
+

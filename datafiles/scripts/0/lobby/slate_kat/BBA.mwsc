@@ -1,0 +1,74 @@
+p
+line "..."
+k
+line "Are you just not into talking to me or something?"
+face p 0 0
+p
+line "Nah,|p| that's not it,|p| Smalls just left a little abruptly there."
+k
+line "What,|p| is your issue the whiplash?"
+line "Suddenly having to talk with me one on one?"
+p
+line "Yeah.|p| I'm not really amazing\nat talking to new people."
+face p 0 0
+p
+line "It's nothing against you."
+k
+line "Got it."
+face p 1 0
+p
+line "..."
+k
+line "I can understand that..."
+line "When I transferred schools, I never wanted to talk to anyone."
+face k 0 2
+k
+line "All my classmates thought I was weird."
+face k 0 0
+k
+line "Except Ethan.|p| That's 'cuz he was just as weird."
+line "So I kinda just got used to\nhanging with him."
+face p 0 0
+p
+line "Yeah if I'm being honest,|p| Smalls is the one pushing me to be a little more social."
+face p 0 2
+p
+line "I didn't expect him to leave me\nhanging like this."
+face k 0 2
+k
+line "That's funny."
+face k 0 0
+k
+line "Ethan's a bit awkward,|p|\nbut he's certainly social."
+line "Hanging out with him got me\ntalking to people more."
+face k 0 2
+k
+line "Now he's the weirder one\nout of the two of us."
+face p 0 1
+p
+line "I can see that."
+line "Honestly,|p| I-|p 20| |skip| "
+set s x -70
+set p x +45
+face l 0 0
+face p 4 0
+s
+line "Yo, we're back."
+set k x +67
+set l x -48
+l
+line "Sup dudes."
+face s 2 1
+s
+line "Pandora,|p| how have you not told me about Fortress of Sorrow before?"
+face s 0 2
+s
+line "Ethan made it sound like\nthe best show of all time."
+
+
+setflag _0.slate_kat.read.BBA 1
+setflag _0.pandora.alone 0
+setflag _0.slate_kat.branch BBA
+function lobby_tick_time
+goto script 0/lobby/slate_kat/questions
+

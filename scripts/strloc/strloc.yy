@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"strloc",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"strloc",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

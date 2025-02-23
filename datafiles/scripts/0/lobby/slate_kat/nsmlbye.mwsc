@@ -1,0 +1,62 @@
+p
+line "I think I'm gonna go catch up with Smalls."
+k
+line "Oh alright.|p| Cya I guess?"
+face p 1 0
+face s 0 0
+p
+line "..."
+set k x -200
+set s dir -1
+set s side 1
+set l x +20
+set s x -75
+set l front_when_speak 0
+l
+line "...and basically,|p| The Dormant Exile is being held at this summit-|p 30| |skip| "
+face s 0 1
+
+checkflag nickname_panda 1
+goto marker branch26y
+goto marker branch26n
+
+marker branch26y
+
+s
+line "Oh hey Panda.|p| Get bored already?"
+
+goto marker branch26e
+
+marker branch26n
+
+s
+line "Oh hey Pandora.|p| Get bored already?"
+
+goto marker branch26e
+
+marker branch26e
+
+face p 0 2
+
+p
+line "I dunno,|p| conversation just kinda died."
+face l 0 0
+l
+line "What's up Pandora?|p| I was just about to tell Smalls about the best arc."
+line "You're welcome to listen in."
+face p 0 0
+p
+line "I'm good."
+face p 1 0
+p
+line "Smalls can we go?"
+face s 0 3
+s
+line "Oh,|p| sure."
+face s 0 0
+s
+line "Catch ya later Ethan."
+
+setflag _0.pandora.alone 0
+setflag _0.pandora.kat 1
+

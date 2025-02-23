@@ -1,0 +1,152 @@
+face s 0 0
+checkflag nickname_panda 1
+goto marker branch22y
+goto marker branch22n
+
+marker branch22y
+
+s
+line "Panda,|p| you and Slate should\ntell me about this show."
+
+goto marker branch22e
+
+marker branch22n
+
+s
+line "Pandora,|p| you and Slate should\ntell me about this show."
+
+goto marker branch22e
+
+marker branch22e
+
+
+
+face p 0 2
+p
+line "We're at this crazy elusive event\nfull of horns and smiley faces..."
+
+
+face p 4 0
+p
+line "...but you wanna talk about cartoons."
+face k 0 0
+face p 1 0
+p
+line "Besides,|p| I only remember\nvague details."
+
+
+face l 0 0
+l
+line "Don't even worry.|p| I love\ntalking about this show."
+line "Fortress of Sorrow, is this old\n30's anime about an eternal war."
+line "It's awesome.|p| It mixes medieval\nstuff with cyberpunk stuff."
+
+
+
+
+
+
+face s 0 1
+checkflag nickname_panda 1
+goto marker branch26y
+goto marker branch26n
+
+marker branch26y
+
+s
+line "How do you know about this show, Panda?"
+line "It doesn't seem like your thing."
+
+goto marker branch26e
+
+marker branch26n
+
+s
+line "How do you know about this show, Pandora?"
+line "It doesn't seem like your thing."
+
+goto marker branch26e
+
+marker branch26e
+
+face p 1 2
+p
+line "It's not like it was ever my\nfavorite thing in the world."
+face p 0 0
+p
+line "My dad had a copy lying around,|p|\nso I'd watch it sometimes."
+face k 0 2
+k
+line "How old is your dad??"
+face p 0 2
+p
+line "I dunno,|p| like 40 or something."
+l
+line "Duuuude,|p| Pandora,|p| you totally agree with me about the Cybo-Mancers being the cooler faction right?"
+face p 1 0
+p
+line "I barely remember anything about the other one,|p| so I guess?"
+face p 0 2
+p
+line "They were the human-demon hybrids,|p| right?"
+face k 0 0
+k
+line "No,|p| that's \"Slate's\" faction."
+line "The Knellborn are the mechanical spirits."
+face s 0 0
+face p 4 0
+p
+line "Oh yeah."
+k
+line "\"Slate\" is a Cybo-Mancer."
+face p 0 0
+p
+line "Uh,|p| okay."
+face s 0 1
+checkflag nickname_panda 1
+goto marker branch29y
+goto marker branch29n
+
+marker branch29y
+
+s
+line "Panda,|p| we gotta watch\nthis show some time."
+
+goto marker branch29e
+
+marker branch29n
+
+s
+line "Pandora,|p| we gotta watch\nthis show some time."
+
+goto marker branch29e
+
+marker branch29e
+
+l
+line "Sweeet.|p| That means the\nfour of us are ALL fans."
+line "Which means there's probably forty thousand fans across the city now."
+face k 0 1
+k
+line "Still doesn't make sense."
+
+k
+line "But it'd be thirty thousand.|p|\nI'm not a fan."
+face l 1 0
+l
+line "Nope.|p| You're a total\nF.O.S nerd.|p| You know it all."
+face p 0 0
+l
+line "You're an honorary fan."
+k
+line "Ethan,|p| I only know a thing about \nit because you never stop \nblabbing about it."
+line "You're lucky I tolerate it."
+l
+line "Absolutely, dude."
+line "When I win,|p| I'll buy you something\nnice to show my appreciation."
+
+setflag _0.slate_kat.read.A 1
+setflag _0.slate_kat.branch A
+function lobby_tick_time 2
+goto script 0/lobby/slate_kat/questions
+

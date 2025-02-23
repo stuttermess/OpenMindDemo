@@ -1,0 +1,14 @@
+face p 0 0
+p
+line "Smalls,|p| we should probably get going."
+face s 0 1
+s
+line "For sure.|p| Cya guys."
+face l 0 0
+l
+line "Peace dude."
+face k 0 0
+k
+line "Goodbye."
+
+

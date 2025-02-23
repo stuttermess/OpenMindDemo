@@ -1,0 +1,57 @@
+
+face p 0 0
+p
+line "Abbie was...|p| interesting."
+face s 1 0
+s
+line "..."
+face p 4 0
+p
+line "Uh,|p| you good Smalls?"
+s
+line "Yeah,|p| I'm just thinking."
+line "If I win,|p| I could use my money to start a plushie business or something."
+face p 0 2
+p
+line "A plushie business."
+face s 0 1
+s
+line "Yeah.|p| We could do custom orders."
+line "I'd hire Abbie on staff.|p|\nShe could make them all."
+line "She seems good enough with people."
+p
+line "And what are you gonna do?"
+face s 0 0
+s
+line "Head manager stuff."
+face p 1 2
+p
+line "That's|p| a terrible idea."
+line "You'd have like,|p| zero market."
+face s 0 1
+s
+line "I'll get a sign."
+p
+line "Even if you did,|p| you'd be overworking Abbie."
+face p 4 0
+p
+line "..."
+face p 0 0
+p
+line "At least hire me too."
+s
+line "That's the plan."
+face s 0 1
+s
+line "You'll be outside spinning the sign."
+
+
+
+
+
+
+setflag _0.smalls.abbie 2
+setflag _0.smalls.abbie.branch ABAA
+function lobby_tick_time 0.5
+goto script 0/lobby/smalls/return
+

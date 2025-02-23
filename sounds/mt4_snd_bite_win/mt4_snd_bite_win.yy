@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mt4_snd_bite_win",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":3.3750112,
+  "name":"mt4_snd_bite_win",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mt4_snd_bite_win.ogg",
+  "type":1,
+  "volume":1.0,
+}

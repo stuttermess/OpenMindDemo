@@ -1,0 +1,75 @@
+face s 0 0
+face p 0 0
+s
+line "What are you two gonna do with your money if you win?"
+face l 0 0
+l
+line "Dude,|p| I've barely thought about that.|p| Kat's the one with the sweet plans."
+face l 1 0
+l
+line "She wants to-|p 20| |skip| "
+face k 0 1
+k
+line "Ethan,|p| just let me say it if\nyou're gonna tell them."
+face k 0 0
+k
+line "You're gonna say it wrong."
+face l 1 0
+l
+line "Okay dude,|p| the floor's yours."
+k
+line "I just wanna use the money to\nrent my own art studio."
+face s 0 0
+s
+line "Oh that's awesome,|p| what do you do?"
+k
+line "It's just a hobby,|p| but I like\ndoing abstract paintings."
+face l 0 0
+face k 0 1
+l
+line "Her current setup is in her mom's old room."
+face k 0 0
+k
+line "Uh,|p| yeah.|p| I'd like my own space for it."
+face s 0 0
+s
+line "I get that."
+face s 0 1
+checkflag nickname_panda 1
+goto marker branch26y
+goto marker branch26n
+
+marker branch26y
+
+s
+line "Panda,|p| we should totally use some money for our own studio."
+
+goto marker branch26e
+
+marker branch26n
+
+s
+line "Pandora,|p| we should totally use some money for our own studio."
+
+goto marker branch26e
+
+marker branch26e
+
+face p 4 0
+p
+line "Man,|p| isn't rent in this city\nlike,|p| super high?"
+s
+line "I think it beats getting noise complaints from my neighbors."
+face l 0 0
+l
+line "Are you two in a band or something?|p| That's so awesome."
+line "My place gets a ton of\nnoise complaints too."
+line "My parents are always yelling at my older brothers for whatever trouble they get into..."
+line "I try to stay out of it."
+line "If Kat wins,|p| I'm absolutely gonna hang out with her at her studio."
+
+setflag _0.slate_kat.read.BA 1
+setflag _0.slate_kat.branch BA
+function lobby_tick_time
+goto script 0/lobby/slate_kat/questions
+

@@ -1,0 +1,28 @@
+checkflag _0.tutorial.fails 0
+goto marker 0fails
+checkflag _0.tutorial.fails 1
+goto marker 1fails
+
+goto marker 2fails
+
+
+marker 0fails
+Good job!
+That's all of the fundamentals...|p|\nBut did you know Interfaces can be combined?|p| It's true!
+show_controls
+Let's try out a microgame using both the Arrows and Spacebar Interfaces!
+goto marker end
+
+marker 1fails
+Oh,|p| I know it's challenging,|p| but you can do it!
+show_controls
+Remember,|p| you can use either WASD or the Arrow Keys-|p| whichever you prefer!
+goto marker end
+
+marker 2fails
+show_controls
+Remember,|p| you can use either WASD or the Arrow Keys-|p| whichever you prefer!
+goto marker end
+
+marker end
+

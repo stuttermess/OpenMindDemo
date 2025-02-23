@@ -1,0 +1,12 @@
+face s 0 1
+s
+line "We're back."
+face r 0 0
+r
+line "..."
+face r 1 0
+r
+line "Oh,|p| hey."
+
+goto script 0/lobby/roxy/questions
+

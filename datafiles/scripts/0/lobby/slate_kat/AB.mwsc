@@ -1,0 +1,93 @@
+
+face s 0 0
+s
+line "Your real name is Ethan then?"
+face l 0 0
+l
+line "Yup.|p| That's what my friends call me."
+face k 0 1
+k
+line "Friend*."
+face l 1 0
+l
+line "Not true.|p| Your grandparents call me Ethan."
+line "They're both my friends too."
+face s 1 0
+s
+line "So,|p| you're not siblings."
+k
+line "Ethan's a general nuisance that hangs around my place daily..."
+face k 0 2
+k
+line "...but no we're not related."
+face l 0 0
+l
+line "My place gets too rowdy when\nmy brothers are home."
+line "Plus,|p| there's nobody there who likes listening to me talk about Fortress of Sorrow."
+face s 0 0
+l
+line "Love my family,|p| but it's PARADISE\nto get away from that bunch."
+face l 1 0
+l
+line "Kat's grandparents are so much cooler."
+face k 0 0
+k
+line "Ethan's idea of paradise is a\nboring old people house."
+face l 0 0
+l
+line "Peace and quiet,|p| free cookies,|p|\nand two old people to hang with\nis paradise to me."
+face p 0 0
+p
+line "Do...|p| you talk to them about\ncartoons as well?"
+l
+line "Yup.|p| Kat's grandpop and\nI can talk for hours."
+face k 0 1
+k
+line "He understands none of what\nyou're saying by the way."
+face l 1 0
+l
+line "I don't mind repeating myself.|p|\nJust means more talking\nfor the both of us."
+face l 0 0
+l
+line "He's got a buncha stories\nhe loves telling me."
+face k 0 0
+k
+line "Old people stories.|p|\nAbout his life and stuff."
+face l 1 0
+l
+line "Exactly.|p| He's a rambler."
+face l 1 0
+l
+line "I enjoy seeing that light in his\neyes no matter how many times\nhe tells the same stories."
+face k 0 1
+k
+line "..."
+face l 0 0
+l
+line "I'd hang out there all the time,|p| but I'm too tall to sleep on their couches."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setflag _0.slate_kat.read.AB 1
+setflag _0.slate_kat.branch AB
+function lobby_tick_time 2
+goto script 0/lobby/slate_kat/questions
+

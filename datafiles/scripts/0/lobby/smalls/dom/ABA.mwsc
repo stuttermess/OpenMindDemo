@@ -1,0 +1,73 @@
+
+
+
+p
+line "Dude. "
+face p 1 0
+p
+line "Dom left me completely disarmed."
+line "Like,|p| normally I'd immediately tell someone who introduces himself like that to piss off."
+face p 0 1
+p
+line "But I don't know,|p| I kinda liked the dude."
+face s 0 1
+s
+line "Same.|p| I just wish we could have gotten to talk about music more."
+face s 0 0
+s
+line "I want to connect with other producers."
+line "I'm afraid I'll stagnate if I stay in my own bubble."
+face p 0 0
+p
+line "I'd be down to hang out with him sometime."
+line "It's a shame that we couldn't get his contact though..."
+face p 0 2
+p
+line "Hey,|p| couldn't you just have given him your number on paper or something?"
+face s 0 3
+s
+line "Oh."
+face s 0 0
+s
+line "That's completely my fault,|p| yeah."
+face s 1 0
+s
+line "But,|p| being fair,|p| when he said the thing about his \"music phone,\"|p| all rational thought left my brain."
+line "Thinking about it cynically,|p| it sounds like something he said to avoid giving us his contact."
+face p 1 0
+p
+line "Nah dude,|p| I actually believe he was being honest."
+face p 0 0
+p
+line "He seemed like enough of a goof to actually do that."
+face s 0 1
+s
+line "Fair enough.|p| Why not give him your number yourself then?"
+face p 0 4
+p
+line "I wasn't gonna give my phone number to a dude I just met,|p| Smalls."
+face p 0 0
+p
+line "We can just catch up with him outside when the tournament's done,|p| anyway."
+face s 0 0
+s
+line "In that case,|p| I just hope we can find him amongst the sea of people at the entrance."
+p
+line "He'll probably find us first.|p|\nDude seems mystical like that."
+face s 0 2
+s
+line "That sounds about right,|p| yeah."
+
+
+
+
+
+
+setflag _0.smalls.dom 2
+setflag _0.smalls.dom.branch ABA
+function lobby_tick_time 0.5
+goto script 0/lobby/smalls/return
+
+
+
+

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"lobby_groundfloor",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"lobby_groundfloor",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

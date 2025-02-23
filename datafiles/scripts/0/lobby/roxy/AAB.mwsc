@@ -1,0 +1,78 @@
+face s 0 0
+face p 0 0
+s
+line "So you HAD side effects,|p| but you're good now?"
+face r 0 0
+r
+line "Yeah,|p| pretty much."
+face s 1 0
+s
+line "For the sake of Pandora's ease,|p| what's your secret?"
+face p 0 0
+p
+line "Do you wear a tinfoil hat before you start playing?"
+face r 3 0
+r
+line "No."
+face r 3 1
+r
+line "My hair's too big for that."
+face p 0 1
+p
+line "Fair enough."
+face r 2 0
+r
+line "But really,|p| it depends on what the problem is."
+face p 0 0
+r
+line "What worked for me was...|p| I guess you'd call it compartmentalization?"
+face s 0 0
+s
+line "You mean getting into a different mental state when you're not playing?"
+r
+line "Exactly."
+face p 0 2
+p
+line "Sounds unhealthy in its own way."
+r
+line "It works for me."
+line "When I first joined my team,|p| I started engaging in every social interaction like it was a MINDWAVE battle."
+face r 1 0
+r
+line "Only reason I stopped was,|p| ironically,|p| because it was affecting my MINDWAVE performance."
+face r 0 0
+r
+line "The stress of trying to \"win\" every interaction got overwhelming."
+line "So I stopped."
+face p 1 2
+p
+line "Sounds scary."
+face s 0 1
+s
+line "Nah,|p| you see the same in almost every \"real sport.\""
+face s 0 0
+s
+line "I think it's something like,|p| 73% of athletes develop some kinda long term side effect from their field. "
+face p 4 0
+p
+line "Huh,|p| is that true?"
+face s 2 1
+face p 0 4
+s
+line "Nah,|p| made up the number just now."
+face s 0 1
+s
+line "...but it's probably something like that."
+face r 1 0
+r
+line "The sentiment is there."
+face p 0 0
+face r 2 0
+r
+line "Dedicating yourself to anything to that degree isn't the best for your body or mind."
+
+setflag _0.roxy.read.AAB 1
+setflag _0.roxy.branch AAB
+function lobby_tick_time
+goto script 0/lobby/roxy/questions
+

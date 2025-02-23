@@ -1,0 +1,84 @@
+face p 0 0
+face s 0 0
+s
+line "You seem to like Blackout City,|p| how come you wanna move back already?"
+face a 0 0
+a
+line "Well,|p| I do really love this place!"
+face a 1 0
+a
+line "It's prettier than anything I've seen before."
+line "The skyscrapers...|p| all of the lights..."
+face a 0 0
+a
+line "...it's like-"
+line "It all feels so fresh and exciting,|p| but oddly nostalgic?"
+face p 0 2
+p
+line "Why do you wanna move if you actually like it?"
+face p 0 1
+p
+line "Is the sparkly yarn better back in town?"
+face a 1 0
+a
+line "No...|p| everything's just... better here!"
+face a 0 0
+a
+line "I didn't even KNOW sparkly yarn was a thing until I saw it here."
+face a 1 2
+a
+line "It's super hard to enjoy any of that when I'm all alone though."
+face a 2 2
+a
+line "Even after living here for a month,|p| I still haven't made one friend..."
+face a 2 2
+a
+line "I wish Jenny was here..."
+line "...then I wouldn't have to care about making friends at school."
+face p 1 0
+p
+line "Hey..."
+line "If the problem is your friend not being here,|p| couldn't you like..."
+face p 4 0
+p
+line "Get her to come here instead?"
+face s 0 1
+s
+line "Yeah.|p| A high schooler's gonna adopt her friend,|p| who's also a high schooler."
+face p 1 1
+p
+line "Yeah,|p| I might actually be an idiot."
+a
+line "I don't think you're an idiot Panda!"
+face p 0 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setflag nickname_panda 1
+setflag _0.abbie.read.BAB 1
+setflag _0.abbie.branch BAB
+function lobby_tick_time
+goto script 0/lobby/abbie/questions
+
+

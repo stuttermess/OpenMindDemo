@@ -1,0 +1,70 @@
+
+face p 0 0
+p
+line "Uh,|p| any interesting story behind you being here then?"
+face i 2 0
+i
+line "Nope.|p| Not really."
+line "I have enough money."
+face i 0 0
+i
+line "I just don't wanna have to work for the rest of my life."
+face p 0 2
+p
+line "Okay...|p| that's boring."
+face i 1 0
+i
+line "If you insist on knowing more mundane facts about my life..."
+face i 0 1
+i
+line "I might like to make movies someday.|p| I dabble a bit already."
+face i 0 3
+i
+line "Mostly crappy short films on my phone with my friends."
+line "I'd show you,|p| but I don't want to."
+p
+line "...Okay."
+face p 0 0
+p
+line "So you'd go to a film school or something?"
+line "If I could afford it,|p| I'd probably go to a music academy."
+i
+line "Okay my mental image of you was correct."
+line "And yeah,|p| I'd sign up to a film school.|p| Somewhere on the west coast preferably."
+face i 2 0
+i
+line "With the rest of it...|p| maybe I'd invest in a safe stock?"
+face p 4 0
+p
+line "..."
+i
+line "It's what my dad tells me to do."
+line "I don't know how it works but..."
+face i 0 0
+i
+line "Mindscape has been on the rise for pretty much forever."
+line "It sounds like a safe investment,|p| right?"
+face p 0 2
+p
+line "..."
+face p 1 0
+p
+line "That's the worst thing I've ever heard."
+face p 1 2
+p
+line "You realize you'd be feeding them their own money,|p| right?"
+face p 0 3
+p
+line "You'd create this horrible late-capitalist ouroboros."
+face i 1 0
+i
+line "...I might have to think about this more."
+face p 0 0
+p
+line "For sure."
+
+setflag _0.iris.read.ABA 1
+setflag _0.iris.branch ABA
+function lobby_tick_time
+goto script 0/lobby/iris/questions
+

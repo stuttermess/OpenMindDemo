@@ -1,0 +1,71 @@
+i
+options clear
+checkflag _0.iris.branch 0
+goto marker 0
+checkflag _0.iris.branch A
+goto marker A
+checkflag _0.iris.branch A2
+goto marker A2
+checkflag _0.iris.branch AA
+goto marker AA
+checkflag _0.iris.branch AB
+goto marker AB
+checkflag _0.iris.branch AAA
+goto marker AAA
+checkflag _0.iris.branch ABA
+goto marker ABA
+
+
+
+
+
+
+
+marker 0
+option add name "APOLOGIZE" color pandora script "0/lobby/iris/A"
+option add name "Bye" script "0/lobby/iris/bye_before_apologize"
+goto marker end
+
+
+marker A
+option add name "Why Apologize?" color pandora script "0/lobby/iris/AA"
+option add name "Necklace" color pandora script "0/lobby/iris/AB"
+options shuffle
+option add name "Feel stupid and leave" script "0/lobby/iris/bye_after_apologize"
+goto marker end
+
+marker A2
+option add name "Why Apologize?" color pandora script "0/lobby/iris/AA"
+option add name "Necklace" color pandora script "0/lobby/iris/AB"
+options shuffle
+option add name "Bye" script "0/lobby/iris/bye_after_apologize_and_leave"
+goto marker end
+
+marker AA
+option add name "MINDWAVE Tournament" color pandora script "0/lobby/iris/AAA"
+option add name "Bye" script "0/lobby/iris/bye"
+goto marker end
+
+
+
+marker AB
+option add name "MINDWAVE Tournament" color pandora script "0/lobby/iris/ABA"
+option add name "Bye" script "0/lobby/iris/bye"
+goto marker end
+
+marker AAA
+option add name "Bye" script "0/lobby/iris/AAAA"
+goto marker end
+marker ABA
+option add name "Bye" script "0/lobby/iris/ABAA"
+goto marker end
+
+
+
+
+marker end
+
+
+
+
+options show

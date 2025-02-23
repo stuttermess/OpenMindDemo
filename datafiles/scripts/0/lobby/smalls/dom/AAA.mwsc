@@ -1,0 +1,68 @@
+
+face s 1 0
+s
+line "Are you actually thinking of playing outside Mindscape Tower?"
+face p 0 1
+p
+line "Absolutely."
+face p 0 0
+p
+line "Obviously not tonight,|p| but I'm definitely gonna try to catch up with Dom later so we can talk about it."
+face s 0 1
+s
+line "I'm not gonna lie,|p| the idea is great."
+face s 2 0
+s
+line "Problem is,|p| I'd rather not draw any of Mindscape's attention right now..."
+face s 0 0
+s
+line "...let's be honest,|p| There's no way they don't know I snuck in here."
+line "...But for one reason or another,|p| they don't care."
+face p 0 0
+p
+line "Maybe it's like how they let you steal a little from supermarkets."
+face s 0 0
+s
+line "What?"
+face p 1 0
+p
+line "Yeah,|p| don't supermarkets let you steal a little 'cuz it's no big deal?"
+line "I think you told me something about that at one point."
+face s 1 0
+s
+line "Oh,|p| that."
+line "It's not that they don't care,|p| it's to make you think you're getting away with it."
+face s 0 0
+s
+line "They want to build a case against you so that they can charge you with a really serious felony."
+face p 0 2
+p
+line "Okay, I think I completely misunderstood that."
+s
+line "You're good."
+face s 2 0
+s
+line "My point is,|p| if I were to do one more thing Mindscape doesn't like,|p| they'd probably try catching me."
+face p 1 0
+p
+line "I understand,|p| it's sad,|p| but I guess we'll have to play the show without you. "
+face s 0 0
+s
+line "..."
+face s 1 0
+s
+line "If they know I'm trespassing,|p| they'd also know that we're associated."
+line "Sooo...|p| they'll probably be keeping an eye on you too."
+p
+line "Well,|p| damn."
+face p 0 0
+p
+line "If it's not gonna make a difference either way,|p| you might as well come with us."
+face s 0 1
+s
+line "You know what,|p| sure.|p| That's a compelling enough argument."
+setflag _0.smalls.dom 2
+setflag _0.smalls.dom.branch AAA
+function lobby_tick_time 0.5
+goto script 0/lobby/smalls/return
+

@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shd_posterize",
+  "name":"shd_posterize",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/Shaders.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

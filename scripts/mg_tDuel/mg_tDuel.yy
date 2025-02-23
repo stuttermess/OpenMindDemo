@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"mg_tDuel",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"mg_tDuel",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

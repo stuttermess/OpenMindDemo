@@ -1,0 +1,43 @@
+face s 0 1
+s
+line "After this is done,|p| we should totally watch some Fortress of Sorrow."
+face p 0 0
+p
+line "Man,|p| it's really not as interesting as Slate made it sound."
+face p 1 0
+p
+line "There's a reason absolutely nobody talks about it nowadays."
+face p 0 1
+p
+line "If my dad's disc was actually worth something,|p| I'd sell it in a heartbeat."
+face p 1 2
+p
+line "That way coming here could be worth something.|p| Even if I end up losing."
+face s 0 1
+s
+line "Don't talk like that,|p| this experience is valuable in its own way."
+face s 1 0
+s
+line "You also admitted to barely remembering the show.|p| I think it deserves a rewatch."
+face s 0 1
+s
+line "It could be even better than Slate made it sound,|p| you just gotta give it a chance."
+face p 0 0
+p
+line "Man I dunno,|p| it's just nerd stuff."
+face p 0 4
+p
+line "We can watch ONE episode,|p| but if it sucks I'm done."
+face s 2 1
+s
+line "You can't base your opinion off of a single episode."
+face p 1 0
+p
+line "Fine,|p| two episodes,|p| but if they both suck I'm never letting you trick me into watching dweeb garbage again."
+
+
+setflag _0.smalls.slate_kat 2
+setflag _0.smalls.slate_kat.branch AABA
+function lobby_tick_time 0.5
+goto script 0/lobby/smalls/return
+

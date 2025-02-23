@@ -1,0 +1,39 @@
+face p 0 1
+p
+line "Ethan,|p| Kat,|p| it was\nnice meeting you."
+face s 0 1
+s
+line "Good luck with the game you two."
+face k 0 0
+k
+line "I don't need luck.|p|\nEthan does though."
+face k 0 1
+k
+line "Don't make me regret coming here\nby losing immediately."
+face l 1 0
+l
+line "Oh don't worry dude."
+line "My drive to complete my\nF.O.S collection is gonna carry\nme through this thing."
+k
+line "Why do you think that'd make\nme regret it any less?"
+face s 0 1
+k
+line "I'm rooting against you if you're gonna waste your winnings like that."
+face k 0 0
+k
+line "In fact,|p| I'm not planning on\ngoing easy on any of you."
+face k 0 2
+k
+line "Good luck as well though. "
+face p 0 0
+p
+line "See you guys."
+face l 0 0
+l
+line "Peace."
+
+setflag _0.smalls.slate_kat 1
+setflag _0.slate_kat.done 1
+setflag _0.slate_kat.read.AABA 1
+function lobby_tick_time
+

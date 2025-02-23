@@ -1,0 +1,23 @@
+checkflag _0.tutorial.fails 0
+goto marker 0fails
+
+goto marker 1fails
+
+
+
+
+marker 0fails
+What an interesting mind you have,|p| haha.
+show_controls
+It's time to try out the Arrows Interface!
+As if you were playing a game with a keyboard,|p| focus on the Arrow Keys with your right hand-|p| or WASD with your left hand.
+goto marker end
+
+marker 1fails
+Aw,|p| too bad...
+show_controls
+Remember,|p| you can reach out to the Arrow Keys or WASD!|p| Whatever's more comfortable for you.
+goto marker end
+
+marker end
+

@@ -1,0 +1,43 @@
+wait for marker line1
+pause
+speaker_voice announcer
+|style font fnt_pixel|Attention Contestants!
+|style font fnt_pixel|The pools round is about to begin.
+clear
+resume
+
+
+pause at marker line2end
+no_text_continue_until marker line2end
+|style font fnt_pixel|Please enter an available elevator within the next ten minutes.
+clear
+resume
+wait for marker line3
+pause at marker line3end
+speaker_icon smalls
+speaker_voice smalls
+Alright,|p| good luck Pandora.|p|\nI'll see you in a bit.
+speaker_icon none
+resume
+jump to marker shot2start
+clear
+
+
+wait for marker line4
+pause at marker 0_3_4_end
+speaker_voice announcer_small
+|style font fnt_pixel|Greetings,|p| Contestant.
+|style font fnt_pixel|Please insert the cable into your Neural Port to confirm your entry.
+jump to marker 0_3_5_start
+clear
+resume
+wait for marker line5
+pause at marker 0_3_6_end
+|style font fnt_pixel|IDENTITY CONFIRMED:|p| PANDORA.
+|style font fnt_pixel|The pools round will begin shortly.|p| Please stand by.
+jump to marker 0_3_6_end
+clear
+resume
+loop start marker elevatorloopstart2
+loop end marker elevatorloopend2
+

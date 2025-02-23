@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"RFX_coldepth_shd",
+  "name":"RFX_coldepth_shd",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/Shaders.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

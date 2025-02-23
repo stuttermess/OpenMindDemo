@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"json_to_csv",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"json_to_csv",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

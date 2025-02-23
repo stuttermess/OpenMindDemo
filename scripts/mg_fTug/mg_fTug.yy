@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"mg_fTug",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"mg_fTug",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

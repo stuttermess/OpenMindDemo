@@ -1,0 +1,45 @@
+face p 0 0
+p
+line "To be honest,|p| I don't really remember what Fortress of Sorrow was about."
+face p 1 0
+p
+line "My dad had a copy that I'd watch sometimes,|p| but I don't think I understood anything."
+face s 0 1
+s
+line "Huh,|p| I should've asked him about it then."
+line "I bet Ethan could've given you a much needed refresher."
+p
+line "I think I'm good."
+face s 2 0
+s
+line "Fair."
+face s 0 2
+s
+line "It might be better to go in blind."
+face p 1 2
+p
+line "We're not watching Fortress of Sorrow."
+face s 0 1
+s
+line "C'mon,|p| at least give it a chance."
+face p 4 0
+p
+line "..."
+face p 0 2
+p
+line "We can watch ONE episode,|p| but if it sucks I'm done."
+face s 2 1
+s
+line "You can't base your opinion off of a single episode."
+face p 1 0
+p
+line "Fine,|p| two episodes,|p| but if they both suck I'm never letting you trick me into watching dweeb garbage again."
+
+
+
+setflag _0.smalls.slate_kat 2
+setflag _0.smalls.slate_kat.branch ABAA
+function lobby_tick_time 0.5
+goto script 0/lobby/smalls/return
+
+

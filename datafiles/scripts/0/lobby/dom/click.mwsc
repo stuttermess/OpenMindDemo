@@ -1,0 +1,13 @@
+
+char pandora p left +45
+char smalls s left -70
+char dom d right
+
+checkflag _0.dom.done 1
+goto script 0/lobby/dom/song_again
+
+checkflag _0.dom.met 1
+goto script 0/lobby/dom/approach
+goto script 0/lobby/dom/meet
+
+

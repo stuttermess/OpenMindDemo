@@ -1,0 +1,40 @@
+
+face p 0 2
+p
+line "Why'd you come to the tournament then?"
+face i 0 0
+i
+line "Well,|p| I really don't care to see what's going on in some balding middle-aged dude's head..."
+face i 0 3
+i
+line "But I simply want ten million dollars."
+line "I can put up with a bunch of weirdos for that."
+face p 1 0
+p
+line "Imagine having to go against a serial killer or something."
+face p 4 0
+p
+line "How would you even report something like that?"
+face i 0 0
+i
+line "They're probably running background checks to avoid that scenario."
+line "No serial killer would be dumb enough to deliberately provide a scan of their brain."
+line "Especially not to a,|p| most likely,|p| government-subsidized company."
+p
+line "..."
+face p 0 1
+p
+line "I dunno,|p| I've read they let a couple in from time to time."
+line "Keeps things interesting."
+face i 0 3
+i
+line "Maybe I am that person."
+p
+line "Wouldn't be surprised."
+
+setflag _0.iris.read.AAA 1
+setflag _0.iris.branch AAA
+function lobby_tick_time
+goto script 0/lobby/iris/questions
+
+

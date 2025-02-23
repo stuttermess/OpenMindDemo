@@ -1,0 +1,151 @@
+face p 0 0
+face s 0 0
+p
+line "Dom, man."
+face p 0 2
+p
+line "Do you even care about being here?"
+d
+line "I didn't even wanna come here in\nthe first place."
+set s x -200
+set p x 0
+face d 0 1
+d
+line "It's just not a big deal to me..."
+face p 0 0
+p
+line "Why?|p| If you got a ticket,|p| you may as well be here."
+face p 1 0
+p
+line "I don't even like the game,|p| and I'm here."
+face d 0 0
+d
+line "See,|p| I actually like the game,|p| but I suck at it."
+line "So I was thinking of giving the ticket I got from a pharmacy to a frie-|p| |skip| "
+face p 0 2
+p
+line "From a pharmacy?"
+d
+line "Yeah,|p| crazy ain't it."
+face p 0 4
+p
+line "It's just sorta baffling to me."
+face p 0 0
+p
+line "I think if I was buying, say,|p| migraine medication..."
+face p 1 2 
+p
+line "...The last thing I'd be excited about is playing MINDWAVE."
+d
+line "Yeah, bro.|p| When I saw the ticket in the bottle,|p| I was like,|p| confused."
+face p 0 2
+p
+line "I'd be confused too."
+line "The first thing that comes to mind when you say that is like..."
+line "An old-ass man,|p| looking at the ticket in his arthritis pills, and going."
+face p 1 1
+p
+line "MINDWAVE?|p| No idea of what that is.|p| Gonna take my geriatric ass there for sure."
+face d 0 1
+d
+line "Bro,|p| is it even safe for someone that old to play the game?"
+face p 0 2
+p
+line "If it's not safe for me,|p| probably not."
+face p 0 1
+p
+line "Poor grandpa can't even play the game."
+set s x -70
+set p x 45
+d
+line "They could give the tickets to their grandkids, I guess."
+face s 1 0
+face p 4 0
+s
+line "Grandpa could do that,|p| but that still comes across as Mindscape being sloppy."
+face s 0 0
+s
+line "I don't think they should carelessly place tickets where they really don't belong."
+face p 0 0
+p
+line "I genuinely forgot you were here."
+face s 2 1
+s
+line "I was just listening to you two chat."
+face s 0 0
+s
+line "Weren't you talking about your ticket,|p| Dom?"
+face d 0 0
+d
+line "Oh yeah,|p| got sidetracked,|p| sorry."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setflag _0.dom.read.AB 1
+setflag _0.dom.branch AB
+function lobby_tick_time
+goto script 0/lobby/dom/questions
+
+
+

@@ -1,0 +1,28 @@
+checkflag _0.tutorial.fails 0
+goto marker 0fails
+checkflag _0.tutorial.fails 1
+goto marker 1fails
+
+goto marker 2fails
+
+
+marker 0fails
+Great work!
+Time for another Interface combo!
+show_controls
+This time,|p| use the Arrows and Mouse Interfaces together.|p|\nThink you can do it?
+goto marker end
+
+marker 1fails
+Woah,|p| a new perspective!|p| What a crazy microgame.
+show_controls
+Get back in there and do your best, okay?
+goto marker end
+
+marker 2fails
+show_controls
+Let's go for another one!
+goto marker end
+
+marker end
+

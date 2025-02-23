@@ -1,0 +1,10 @@
+checkflag _0.roxy.read.AAAA 1
+goto script 0/lobby/smalls/roxy/AAAA
+checkflag _0.roxy.read.AABA 1
+goto script 0/lobby/smalls/roxy/AABA
+checkflag _0.roxy.read.ABAA 1
+goto script 0/lobby/smalls/roxy/ABAA
+checkflag _0.roxy.read.ABBA 1
+goto script 0/lobby/smalls/roxy/ABBA
+
+

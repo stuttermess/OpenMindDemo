@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ibt_shuffle",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ibt_shuffle",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

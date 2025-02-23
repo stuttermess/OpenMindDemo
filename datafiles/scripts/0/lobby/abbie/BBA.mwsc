@@ -1,0 +1,72 @@
+face s 2 1
+s
+line "Abbie,|p| Panda and I gotta get going."
+face p 1 2
+face s 0 1
+p
+line "I'll beat you half to death if you make that into a \"thing.\""
+face a 2 2
+a
+line "..."
+face p 1 0
+p
+line "Uh,|p| I'm okay with you saying it Abbie."
+face a 4 1
+a
+line "..."
+face p 0 0
+p
+line "Good luck with the tournament and everything."
+face a 1 0
+a
+line "Oh!|p| Maybe I could get your numbers."
+face a 0 0
+a
+line "Y'know,|p| in case either of you lose immediately and we never get to talk again."
+face p 1 0
+p
+line "You might...|p| also lose immediately."
+s
+line "Here's mine and Pandora's."
+face a 3 1
+a
+line "Thanks!"
+face p 0 2
+p
+line "Bro,|p| I didn't give you permission to hand out my number."
+face p 0 1
+p
+line "But sure yeah,|p| maybe we could hang out sometime."
+face s 2 0
+s
+line "As long as you don't get grounded for tonight's rebellious stunt."
+face a 1 2
+a
+line "...Maybe when I come home with the prize money,|p| they'll be less mad?"
+face s 0 1
+s
+line "Hopefully."
+p
+line "Cya Abbie."
+face a 0 0
+a
+line "See you two!"
+
+
+
+
+
+
+
+
+
+
+
+
+
+setflag _0.smalls.abbie 1
+setflag _0.abbie.read.BBA 1
+setflag _0.abbie.done 1
+function lobby_tick_time
+
+

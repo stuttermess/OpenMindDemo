@@ -1,0 +1,69 @@
+face s 0 0
+face p 0 0
+p
+line "How'd you have any trouble getting here anyway?"
+face p 1 2
+p
+line "Public transit's like,|p| the one thing Blackout's got going for it."
+face s 1 0
+s
+line "Yeah,|p| just get yourself a transit pass."
+line "Pandora and I manage to scrounge up enough to afford it monthly."
+face s 0 1
+s
+line "There's a lot to do around the city,|p| so it's worth it."
+face p 0 0
+p
+line "I only use it to go to school most of the time."
+face a 0 0
+a
+line "I considered that,|p| but it seemed expensive,|p| so I just paid for the trip."
+face a 1 2
+a
+line "My parents tell me to avoid the subway because it's \"filthy and devious.\""
+face a 0 0
+a
+line "If the place I wanna go is too far to walk,|p| they'd rather just drive me."
+face p 0 2
+p
+line "I couldn't imagine driving around Blackout City."
+line "The parking lots are always packed."
+line "Do your parents really enjoy looking for parking for 20 minutes every time they go anywhere?"
+face a 1 2
+a
+line "Welllll...|p| My parents do get really annoyed when they can't find a good parking spot."
+face a 0 0
+a
+line "But it's not so bad.|p|"
+line "I spent a similar amount of time walking here from my stop."
+face p 0 0
+p
+line "There's a stop like,|p| literally 5 minutes away from the tower though."
+face a 1 2
+a
+line "Oh,|p| that was probably my fault then."
+face a 2 2
+a
+line "I couldn't understand the speaker over the PA."
+line "I wasn't sure when I was supposed to get off the train,|p| so I must've missed my stop."
+face a 1 0
+a
+line "Luckily with the tower being as tall as it is,|p| I was still able to spot it from a few blocks away."
+face a 0 0
+a
+line "I just walked towards it by following it in the skyline to get here!"
+face s 0 0
+s
+line "Oh wow."
+
+
+
+
+
+setflag _0.abbie.read.BAA 1
+setflag _0.abbie.branch BAA
+function lobby_tick_time
+goto script 0/lobby/abbie/questions
+
+
+

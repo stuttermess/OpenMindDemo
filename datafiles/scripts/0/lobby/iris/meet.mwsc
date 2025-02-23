@@ -1,0 +1,88 @@
+
+face p 0 0
+p
+line "Uh...|p| I held up that girl in line earlier."
+face p 1 2
+p
+line "She got kinda annoyed."
+face s 1 0
+
+s
+line "That sounds|p| incredibly trivial."
+face s 0 0
+s
+line "But if it's bothering you,|p| why not apologize?"
+face s 0 1
+s
+line "Just an idea."
+face p 1 2
+p
+line "An awful idea."
+line "I can only see myself making things worse."
+
+
+
+
+checkflag _0.alex.met 1
+goto marker branch1Y
+goto marker branch1N
+
+marker branch1N
+
+goto marker branch1E
+
+marker branch1Y
+p
+line "Especially after what happened with Alex.\n"
+goto marker branch1E
+
+marker branch1E
+face s 0 0
+s
+line "Suit yourself."
+line "Just don't be surprised if you run into her in the bracket and completely fumble."
+face p 4 0
+p
+line "..."
+face p 0 0
+p
+line "Maybe I should set things straight."
+face s 2 1
+s
+line "Great idea!|p| I'll be over there."
+set p x 0
+set s x -250
+wait 1 second
+i
+line "..."
+face p 0 0
+p
+line "*ahem* \n|p|Hey."
+face i 2 0
+i
+line "..."
+face p 0 2
+p
+line "..."
+line "*AHEM*"
+face i 0 1
+i
+line "Are you sick?"
+p
+line "No, I was just clearing my throat."
+i
+line "Oh,|p| OK."
+line "Hi."
+face p 1 2
+p
+line "Hi?"
+
+setflag _0.pandora.alone 1
+setflag _0.iris.met 1
+incflag _0.chars_met 1
+
+goto script 0/lobby/iris/questions
+
+
+
+

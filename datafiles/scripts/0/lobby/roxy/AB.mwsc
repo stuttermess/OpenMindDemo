@@ -1,0 +1,89 @@
+face p 0 0
+face s 0 0
+checkflag nickname_panda 1
+goto marker branch26y
+goto marker branch26n
+
+marker branch26y
+
+s
+line "Side effects aside,|p| you got any pointers for Panda? "
+
+goto marker branch26e
+
+marker branch26n
+
+s
+line "Side effects aside,|p| you got any pointers for Pandora? "
+
+goto marker branch26e
+
+marker branch26e
+
+face p 1 2
+p
+line "Are you really just gonna ignore that MINDWAVE could be like,|p| rotting your brain or something?"
+face s 2 1
+s
+line "It's no big deal.|p| I've been fine so far. "
+face p 0 4
+p
+line "I don't understand you."
+face s 0 1
+s
+line "You don't understand MINDWAVE either."
+line "You need all the help you can get."
+face r 2 0
+r
+line "It's all intuition really."
+line "Everyone has a different mental model of how MINDWAVE interacts with their brains."
+face r 3 0
+r
+line "That'd be a good place to start."
+face p 0 0
+p
+line "Alright,|p| how do I form my own mental model?"
+face r 2 0
+r
+line "It's not something explaining would help."
+line "Just play the game."
+face p 4 0
+face s 0 0
+s
+line "I get that."
+line "Just try to imagine your thoughts are liquid."
+line "That liquid is more or less viscous depending on how clear your head is."
+face r 3 0
+r
+line "I don't get it."
+face p 4 0
+p
+line "What,|p| like your brain juice?"
+face s 2 0
+s
+line "Nevermind.|p|\nI don't want to talk about this."
+r
+line "Anterior cingulate cortex exercises are also helpful no matter your playstyle."
+face s 0 0
+face p 0 0
+p
+line "Nope, you've completely lost me."
+r
+line "It's an essential exercise for memory channeling."
+p
+line "..."
+r
+line "Oh my bad,|p| I'm used to talking to people who actually know about MINDWAVE."
+face p 1 0
+p
+line "Okay,|p| harsh."
+face r 0 0
+r
+line "It's not an insult."
+line "I just can't give you much advice without that foundational knowledge."
+
+setflag _0.roxy.read.AB 1
+setflag _0.roxy.branch AB
+function lobby_tick_time
+goto script 0/lobby/roxy/questions
+

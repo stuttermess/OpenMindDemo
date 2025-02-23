@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"play_crowd_ambience",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"play_crowd_ambience",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

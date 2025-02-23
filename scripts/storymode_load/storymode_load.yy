@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"storymode_load",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"storymode_load",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,104 @@
+
+face p 0 2
+p
+line "Alright,|p| why are you wearing pajamas?"
+face p 1 0
+p
+line "Not trying to be rude or anything."
+line "I'm just kinda wondering if I should've brought something comfier."
+face a 0 0
+a
+line "No,|p| I like what you brought!"
+face a 1 0
+a
+line "I'm wearing them because I never got to finish this costume I was planning."
+face s 0 0
+s
+line "You were planning a costume?"
+a
+line "Yep!|p| It was gonna be this whole magical girl thing."
+face a 1 2
+a
+line "My dad was gonna help me with it,|p| but he got busy with work..."
+face p 0 2
+p
+line "So...|p| your only other option was your pajamas?"
+face a 0 0
+a
+line "..."
+face a 1 0
+a
+line "Oh!|p| Hehe,|p| not at all!"
+line "It's just that my dad was SUPPOSED to take me tonight,|p| but he couldn't."
+face a 2 2
+a
+line "...and my mom said I kinda suck at MINDWAVE, and probably wouldn't win."
+line "So she didn't want to either."
+face s 2 0
+s
+line "That's a lame way of looking at it.|p|"
+face s 0 1
+s
+line "This experience is gonna be sick whether I win or not."
+face a 0 0
+a
+line "That's exactly what I said!"
+face s 0 0
+a
+line "Minus the cursing."
+face p 1 2
+p
+line "|style color gray|(Which word was the cursing???)"
+face a 2 2
+a
+line "It's my ticket!|p| I found it!|p| I deserve to be here!"
+face a 0 0
+a
+line "So...|p| I just pretended to go to bed early tonight,|p| then I snuck out!"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setflag _0.abbie.read.B 1
+setflag _0.abbie.branch B
+function lobby_tick_time
+goto script 0/lobby/abbie/questions
+
+
+

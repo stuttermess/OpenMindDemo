@@ -1,0 +1,77 @@
+char pandora p left
+char smalls s right
+face p 3 0
+p
+line "...Smalls!?"
+face s 0 2
+s
+line "Sup."
+face p 0 2
+p
+line "I thought you didn't have a ticket?"
+face s 1 0
+s
+line "Nah,|p| I didn't."
+p
+line "How did you get in then?"
+face s 0 1
+s
+line "Business secret."
+face p 1 2
+p
+line "What did you do...?"
+face s 2 0
+s
+line "Security was super light."
+face s 2 1
+s
+line "Non-existent, even."
+face p 0 2
+p
+line "Dude."
+face s 0 0
+s
+line "Just kinda...|p| walked in through a backdoor."
+line "Wandered around some hallways 'til I found this massive room full of people."
+face p 0 0
+p
+line "I mean,|p| I'm glad you're here."
+face p 0 1
+p
+line "Definitely gonna make this whole thing less of a pain."
+face p 1 0
+p
+line "I just hope security doesn't suddenly show up to kick you out."
+face s 0 1
+s
+line "Fingers crossed."
+face p 0 2
+p
+line "If they ask,|p| I'm telling them we're not associated."
+face s 0 0
+s
+line "Fair enough."
+face p 0 1
+p
+line "But look,|p| for real-"
+skip outro
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

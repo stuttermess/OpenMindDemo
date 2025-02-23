@@ -1,0 +1,160 @@
+
+face s 0 1
+face p 0 0
+s
+line "We're actually musicians too,|p| Dom."
+face d 0 0
+d
+line "For real?|p| That's sick."
+line "Are you two in a band or something?"
+face p 1 0
+p
+line "It's only us two,|p| so it's not like a real band."
+
+face p 0 4
+p
+line "More of a duo,|p| Smalls on synths and me on guitar."
+line "We don't have a ton of notoriety or anything."
+face s 0 0
+s
+line "A duo can be a band."
+face s 0 3
+s
+line "Now,|p| you signing us up under a different name at every show we play at?"
+face s 0 1
+s
+line "That might be why we're lacking notoriety."
+face p 0 1
+p
+line "That's awesome,|p| though.|p| And funny."
+face p 1 1
+p
+line "It's not like we're a big enough name for people to care."
+face d 0 0
+d
+line "You guys do gigs?|p|\nThat's dope."
+face p 0 0
+face d 0 1
+d
+line "I wish I could play my tunes live too."
+face s 0 0
+s
+line "You should be able to.|p| Smaller shows will let just about anyone in."
+face s 0 2
+face p 0 4
+s
+line "Even us,|p| in spite of Pandora's sabotaging."
+face p 0 2
+p
+line "See,|p| I don't know why you're so hung up on that, man."
+face p 0 4
+p
+line "We only ever play at old musty dumps."
+face p 1 1 
+p
+line "And there's only ever around 20 people watching us,|p| at most.|p| Nobody notices."
+face s 1 0
+s
+line "That's the problem.|p| If we had one consistent name,|p| people might notice us."
+face s 2 1
+face p 1 0
+s
+line "And also, I don't think it's that funny."
+face p 0 3
+face s 0 1 
+p
+line "Okay,|p| screw you for thinking it's not funny."
+face p 0 4
+p
+line "But that's a pretty fair point."
+d
+line "..."
+face p 0 1
+p
+line "Oh,|p| hey, Dom. Want to play with us at our next show?"
+line "It'd be nice to have a third to carry our gear."
+face d 0 0
+d
+line "Aw,|p| hell yeah, bro."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setflag _0.dom.read.AA 1
+setflag _0.dom.branch AA
+function lobby_tick_time
+goto script 0/lobby/dom/questions
+
+
+
+
+
+

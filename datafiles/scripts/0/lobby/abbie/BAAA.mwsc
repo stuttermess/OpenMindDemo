@@ -1,0 +1,88 @@
+
+face a 0 0
+face s 0 0
+face p 0 0
+a
+line "Pandora,|p| Smalls,|p| it's been fun talking to you!"
+face a 2 2
+a
+line "But I think we all might have to get going soon..."
+face a 1 2
+a
+line "...so,|p| can I have your numbers?"
+face s 0 1
+s
+line "Sure,|p| here you go."
+line "Also,|p| feel free to hit us up and come out east to hang out."
+face p 1 0
+p
+line "I guess we could also go up there..."
+face a 4 0
+a
+line "You would really do that for me???"
+face p 0 1
+p
+line "Yeah but we'll like-"
+face p 0 0
+p
+line "Teach you how to use the subway and go somewhere."
+face p 0 2
+p
+line "Anything up north is kinda expensive for us."
+face a 0 0
+a
+line "Don't worry!|p| If it's too expensive, I could pay for both of you!"
+face p 4 0
+p
+line "Oh,|p| well, thanks?"
+a
+line "Wait,|p| before you go!"
+face p 0 0
+p
+line "Yea-|skip| "
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setflag _0.smalls.abbie 1
+setflag _0.abbie.read.BAAA 1
+setflag _0.abbie.done 1
+end_transition perlin
+function lobby_timer_set_interrupt 0
+function lobby_tick_time
+sequence id "sqcs_0_abbiehug" script "sequence/0/abbiehug"
+
+

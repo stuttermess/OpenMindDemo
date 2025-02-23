@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ibt_sparkle",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ibt_sparkle",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

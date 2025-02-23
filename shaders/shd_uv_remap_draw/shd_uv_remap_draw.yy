@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shd_uv_remap_draw",
+  "name":"shd_uv_remap_draw",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/Shaders.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

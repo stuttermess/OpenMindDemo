@@ -1,0 +1,11 @@
+face p 0 0
+p
+line "..."
+set p x -200
+
+p
+line " "
+face i 0 2
+
+setflag _0.pandora.alone 0
+

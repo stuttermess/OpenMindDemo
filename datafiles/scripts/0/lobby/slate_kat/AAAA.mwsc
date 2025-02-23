@@ -1,0 +1,51 @@
+
+face l 1 0
+l
+line "Oh, by the way,|p| Kat,|p| did you ever end up calling your nanna?"
+line "She wanted us to call\nher when we got here."
+face k 0 1
+k
+line "Yeahhhh,|p| I suppose I gotta do that."
+line "She's gonna be worrying all night if\nI don't give her a call before\nthe tournament starts. "
+face k 0 0
+k
+line "So we'd better head out now."
+face p 0 0
+face s 0 1
+s
+line "Yeah,|p| don't keep her worrying."
+line "Pandora and I gotta get going too."
+face s 0 1
+s
+line "We've got more people to meet."
+k
+line "Cya! "
+face l 0 0
+l
+line "Peace!"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setflag _0.smalls.slate_kat 1
+setflag _0.slate_kat.done 1
+setflag _0.slate_kat.read.AAAA 1
+function lobby_tick_time
+

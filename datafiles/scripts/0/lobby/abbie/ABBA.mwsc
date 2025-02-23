@@ -1,0 +1,97 @@
+
+face p 1 0
+face s 0 0
+p
+line "Hey,|p| Smalls,|p| tournament's starting any time now,|p| we gotta get going."
+face s 2 0
+s
+line "I don't think it's gonna start SOON soon."
+face s 0 2
+s
+line "But it'd be better to say goodbye now instead of getting interrupted out of nowhere."
+face a 1 2
+a
+line "Yeah,|p| that makes sense..."
+face a 0 0
+a
+line "...it was nice meeting you guys!|p|\nI hope to see you around."
+line "Wait,|p| can I have your numbers please?"
+face s 0 1
+s
+line "Sure,|p| here's mine."
+line "I'll just give you Panda's number too."
+face p 1 2
+p
+line "Why are you calling me Panda."
+s
+line "It's a good nickname."
+a
+line "It is!|p| Do you like it, Panda?"
+face p 4 0
+p
+line "..."
+face p 1 0
+p
+line "I'm fighting an uphill battle here,|p|\njust do whatever."
+line "I'm just gonna leave now,|p| Smalls,|p| you can come with me if you want."
+face p 0 1
+p
+line "Bye."
+set p front_when_speak 0
+set p x -200
+wait 1 second
+a
+line "See you!"
+face s 2 1
+s
+line "I'm SUPPOSED to come with you."
+face s 0 1
+s
+line "Sorry Abbie,|p| I have to catch up to her,|p| see you around."
+face a 1 0
+a
+line "See you soon!"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setflag _0.smalls.abbie 1
+setflag _0.abbie.read.ABBA 1
+setflag _0.abbie.done 1
+
+

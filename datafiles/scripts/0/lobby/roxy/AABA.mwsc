@@ -1,0 +1,25 @@
+face s 0 0
+s
+line "We'd better get going."
+face s 0 1
+s
+line "Hopefully we'll meet again on the next floor."
+face p 0 0
+p
+line "Yeah,|p| good luck Roxy."
+face r 1 1
+r
+line "Thanks,|p| good luck with the headaches as well."
+face p 1 2
+p
+line "If they don't stop, I'm gonna have a migraine by the end of the tournament."
+face r 0 1
+r
+line "..."
+
+setflag _0.smalls.roxy 1
+setflag _0.roxy.read.AABA 1
+setflag _0.roxy.done 1
+
+function lobby_tick_time
+

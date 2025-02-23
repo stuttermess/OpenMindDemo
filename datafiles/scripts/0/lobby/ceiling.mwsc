@@ -1,0 +1,27 @@
+char pandora p left
+char smalls s right
+
+p
+line "These tubes are..."
+face p 0 2
+p
+line "...freaky looking."
+face s 1 0
+s
+line "Wonder what's in 'em?"
+face p 0 0
+p
+line "I mean it's probably just like,|p| power and stuff."
+line "Just, wonder why they gotta be so big.|p| And in our faces."
+face s 0 0
+s
+line "I wouldn't say they're in our faces."
+line "They look to be about a hundred feet up to me."
+face p 0 1
+p
+line "Shut up.|p| You know what I mean."
+face s 2 1
+s
+line "..."
+setflag _0.ceiling.done 1
+function lobby_tick_time 0.5

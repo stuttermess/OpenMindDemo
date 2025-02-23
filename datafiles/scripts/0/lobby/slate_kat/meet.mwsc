@@ -1,0 +1,122 @@
+set k name mystery
+face p 0 0
+p
+line "I think I recognize that tall\nguy over there."
+face s 0 0
+s
+line "The one chatting with that\npink haired girl?"
+
+checkflag _0.iris.met 1
+goto marker branch1y
+goto marker branch1n
+
+marker branch1y
+
+face s 0 3
+s
+line "Was he someone else you held up in line or something?"
+face p 1 0
+p
+line "No man shut up.|p| He's like-"
+
+goto marker branch1e
+
+marker branch1n
+goto marker branch1e
+
+marker branch1e
+face l 1 0
+face p 0 1
+p
+line "He's cosplaying a character\nthat I recognize."
+face s 0 0
+s
+line "Oh?"
+line "Who's that?"
+face p 1 0
+p
+line "He's \"Slate.\"|p| Just a character from this cartoon I know. "
+s
+line "What's it called? "
+face p 0 0
+p
+line "Uh,|p| I think it was\nFortress of Sorrow.\n"
+face s 0 1
+s
+line "Doesn't ring a bell,|p| sorry."
+
+
+
+
+s
+line "Why don't you nerd out\nabout it with him?"
+face p 1 0
+p
+line "I don't \"nerd out.\""
+face p 0 2
+p
+line "...but y'know,|p| I do wanna\ntell him I like the cosplay."
+face p 0 0
+p
+line "*ahem*...|p|\nYo!"
+l
+line "Kaatttt,|p| I'm telling you,|p| these\ntubes probably transport-|p 30| |skip| "
+face k 0 0
+checkflag _0.chars_met 0
+goto marker 2y
+goto marker 2n
+marker 2y
+k
+line "Ethan,|p| I think that girl is trying\nto get your attention."
+setflag _0.Ethan 1
+goto marker 2e
+marker 2n
+k
+line "I think that girl is trying\nto get your attention."
+
+marker 2e
+
+
+
+face l 0 0
+l
+line "For real?"
+p
+line "Hey,|p| is that a Slate cosplay?"
+l
+line "Yes it is!|p| Made it myself."
+face l 1 0
+l
+line "Kat I told you SOMEONE would\nrecognize Fortress of Sorrow."
+face k 0 1
+set k name kat
+k
+line "Yeah one out of the thousand\nsomething people here."
+l
+line "Dude,|p| you gotta consider the\nsample size. "
+face l 0 0
+l
+line "There's only a millionth of Blackout's\nentire population here right now."
+face l 1 0
+l
+line "One fan here equals ten\nthousand fans across the city. "
+face k 0 2
+k
+line "That doesn't make sense."
+line "Even if it did,|p| you'd still be a dork\nfor wearing that here."
+
+
+face s 0 1
+s
+line "I'm Smalls by the way,|p| and your resident Fortress of Sorrow fanatic here is Pandora."
+face l 0 0
+face p 1 0
+p
+line "I can introduce myself, y'know."
+
+
+setflag _0.slate_kat.met 1
+incflag _0.chars_met 2
+
+goto script 0/lobby/slate_kat/questions
+

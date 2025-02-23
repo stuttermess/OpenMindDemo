@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"ms15_snd_beat",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":3.75,
+  "name":"ms15_snd_beat",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"ms15_snd_beat.wav",
+  "type":0,
+  "volume":1.0,
+}

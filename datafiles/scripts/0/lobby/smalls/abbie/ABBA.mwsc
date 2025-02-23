@@ -1,0 +1,44 @@
+
+face p 0 0
+p
+line "Abbie was...|p| nice."
+face s 0 1
+s
+line "Yeah,|p| she was really nice."
+face p 1 0
+p
+line "Not really into how much she likes this place though..."
+face s 0 0
+s
+line "I think Abbie just likes everything."
+face s 1 0
+s
+line "Most North Blackout types think MINDWAVE is cool anyhow."
+p
+line "Yeah,|p| I'm convinced that Mindscape is putting something in the water."
+face s 0 2
+s
+line "Don't be mean."
+face s 1 0
+s
+line "Mindscape Co. has such a sway over this city that plenty of wealthy people move here specifically for MINDWAVE."
+face s 0 1
+s
+line "So I don't think it's got anything to do with water."
+face s 0 2
+s
+line "Unless you're suggesting Mindscape is interfering with the water supply of other cities as well?"
+face p 0 0
+p
+line "Y'know,|p| I wouldn't doubt it."
+
+
+
+
+
+
+setflag _0.smalls.abbie 2
+setflag _0.smalls.abbie.branch ABBA
+function lobby_tick_time 0.5
+goto script 0/lobby/smalls/return
+

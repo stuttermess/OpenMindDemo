@@ -1,0 +1,90 @@
+
+face s 1 0
+s
+line "You're from North Blackout?"
+face a 0 0
+a
+line "Yep!|p| Just moved here a month ago!"
+face s 0 0
+s
+line "How've you been liking it?"
+face a 1 2
+a
+line "Well,|p| I haven't lived in a city like this since I was young."
+face a 0 0
+a
+line "I barely had a functioning brain back then.|p| Unlike now."
+face p 0 0
+p
+line "Right."
+face s 0 1
+s
+line "Good luck adjusting to this place Abbie.|p| I've heard it isn't easy."
+face a 3 1
+a
+line "Good luck?|p| I already love this place!"
+face a 1 0
+a
+line "My parents say this city's nauseating to drive around."
+face a 1 2
+a
+line "Looking at the skyscrapers is still scary!"
+face a 2 2
+a
+line "And I do miss my friend sometimes..."
+face p 0 2
+p
+line "Hang on,|p| you were talking about LIKING this city,|p| weren't you?"
+face a 4 1
+a
+line "Of course!|p| How could I not love a city with such a cool tower in the middle?"
+face p 0 0
+p
+line "I can think of a few reasons."
+face a 0 0
+
+a
+line "Anyways Panda,|p| you didn't let me get to the moral!"
+face s 0 0
+face a 1 0
+a
+line "There's this huge hobby shop at North Mall that's bigger than the one back home."
+face a 3 1
+a
+line "I found sparkly yarn there.|p| I didn't even know that existed!"
+face p 0 2
+p
+line "How was that a moral?"
+face s 1 0
+s
+line "North Mall is cool,|p| yeah.|p| A bit busy though."
+face p 1 0
+p
+line "And expensive."
+face s 0 1
+s
+line "You should consider coming out east some time."
+face a 1 0
+a
+line "Well,|p| I've asked my parents to take me to East Blackout before..."
+face a 0 0
+a
+line "...but they told me not to go to the bad parts of the city."
+face s 2 0
+face p 0 0
+p
+line "?"
+
+
+
+
+
+
+setflag nickname_panda 1
+setflag _0.abbie.read.AB 1
+setflag _0.abbie.branch AB
+function lobby_tick_time
+goto script 0/lobby/abbie/questions
+
+
+

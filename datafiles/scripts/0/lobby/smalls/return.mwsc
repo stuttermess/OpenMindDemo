@@ -1,0 +1,8 @@
+
+face s 0 0
+s
+line "Anything else?"
+setflag _0.smalls.anythingelse 1
+goto script 0/lobby/smalls/questions
+
+

@@ -1,0 +1,12 @@
+
+char pandora p left +45
+set p layer 0
+char smalls s left -70
+char abbie a right
+
+checkflag _0.abbie.met 1
+goto script 0/lobby/abbie/approach
+goto script 0/lobby/abbie/meet
+
+
+

@@ -1,0 +1,130 @@
+face p 0 1
+p
+line "Don't forget about the twenty bucks you owe me."
+face s 2 1
+s
+line "Yeah yeah,|p| I'll get it to you first thing after I win."
+face p 0 0
+p
+line "To be honest,|p| I should've bet more."
+face p 1 0
+p
+line "Talking to people here is giving me a weird feeling about the tournament."
+face s 0 0
+s
+line "You'll be fineeeee."
+face p 0 2
+p
+line "Nah,|p| can't trust your judgement after you were completely and totally wrong about Alex."
+line "Like,|p| yeah,|p| of course someone clearly avoiding interaction didn't wanna talk to us."
+face s 1 0
+s
+line "You know that's not true."
+checkflag _0.abbie.met 1
+goto marker branch7y
+goto marker branch7n
+marker branch7y
+
+
+face s 0 1
+s
+line "Abbie seemed like she needed some company."
+line "She wasn't having trouble talking our ears off."
+checkflag _0.abbie.done 1
+goto marker branch2y
+goto marker branch2n
+marker branch2n
+face s 2 1
+s
+line "Honestly,|p| maybe we should go back to talk with her some more..."
+face s 0 2
+s
+line "Or we could talk to some new people."
+marker branch2y
+goto marker branch1e
+
+marker branch7n
+checkflag _0.roxy.met 1
+goto marker branch3y
+goto marker branch3n
+marker branch3y
+
+face s 0 1
+s
+line "Roxy was on her phone and she seemed nice."
+face s 0 0
+s
+line "Well,|p| nice enough."
+goto marker branch1e
+
+marker branch3n
+checkflag _0.dom.met 1
+goto marker branch4y
+goto marker branch1e
+marker branch4y
+
+face s 0 1
+s
+line "Dom was on his phone and he was more than happy to approach us."
+
+checkflag _0.dom.read.ABAA 1
+goto marker branch5y
+goto marker branch1e
+marker branch5y
+
+face s 2 1
+s
+line "And now we've got someone cool to plan a gig with."
+
+
+goto marker branch1e
+marker branch1e
+
+face s 0 1
+s
+line "There are absolutely people here who'd be cool to talk with."
+face s 1 0
+s
+line "I might've just been wrong about this one,|p| that's all."
+face s 0 1
+s
+line "Nothing we can do but move on and talk to someone else."
+face p 0 1
+p
+line "Oh yeah?|p| You wanna keep dragging me along to talk to people? "
+face p 0 0
+p
+line "How do you plan on convincing me of that?|p| Are you gonna keep bribing me with easy bets?"
+face s 1 0
+s
+line "Hmm,|p| well I do want my twenty dollars back..."
+face s 0 1
+s
+line "Maybe I should embrace the gambler's fallacy."
+face s 0 2
+s
+line "Shall we go double or nothing on the next person we meet?"
+p
+line "Bro,|p| if we keep meeting people like Alex, you'd better hope you win this tournament."
+
+setflag _0.smalls.alex 2
+setflag _0.smalls.iris.branch B
+function lobby_tick_time 0.5
+goto script 0/lobby/smalls/return
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

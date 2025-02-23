@@ -1,0 +1,35 @@
+checkflag _0.tutorial.fails 0
+goto marker 0fails
+checkflag _0.tutorial.fails 1
+goto marker 1fails
+
+goto marker 2fails
+
+
+marker 0fails
+Great job!|p| That's what playing a microgame feels like.
+Let's try out another microgame with a different Interface.
+show_controls
+This one uses the Keyboard Interface.|p|\nGive it a go!
+goto marker end
+
+
+
+
+
+marker 1fails
+Hmm...|p| maybe we need to try something else.
+show_controls
+Imagine there's a biiig keyboard in front of you,|p| get it?|p|\nThat's what the Interface is for!
+Let's give it another go!
+goto marker end
+
+marker 2fails
+Hmm...|p| maybe we need to try something else.
+show_controls
+Just figure out what letters are being shown,|p| and type them!|p|\nEasy as 1-2-3!
+goto marker end
+
+
+marker end
+

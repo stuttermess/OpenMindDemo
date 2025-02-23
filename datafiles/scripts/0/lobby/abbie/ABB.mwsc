@@ -1,0 +1,117 @@
+face s 0 1
+face p 0 0
+p
+line "I'll say it."
+line "I don't think the tower's cool.|p|\nAt all."
+face p 0 2
+p
+line "If anything it's a bit off-putting,|p| don't you think?"
+face s 2 1
+s
+line "Sorry,|p| I'm with Abbie on this one,|p| it's THE landmark of the city."
+face s 0 1
+s
+line "If you don't concede that it's a little bit cool to be inside of it..."
+face s 0 2
+s
+line "...then I think you're just trying to be a contrarian."
+face a 1 2
+a
+line "Yeah, it's so tall that I had to crane my neck to see the top while I was in line!"
+face a 4 0
+face s 0 0
+a
+line "And the screen with the eye?|p|\nSooo cool!"
+face p 1 0
+p
+line "Try saying that when that eye is always facing your window."
+face p 1 2
+p
+line "Because I swear to god,|p| it ALWAYS starts staring at me when I'm trying to sleep."
+face s 2 0
+face a 0 0
+s
+line "That's an optical illusion."
+line "It can't actually stare at you."
+face p 0 0
+p
+line "Yeah?|p| Still looks creepy."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setflag _0.abbie.read.ABB 1
+setflag _0.abbie.branch ABB
+function lobby_tick_time 2
+goto script 0/lobby/abbie/questions
+

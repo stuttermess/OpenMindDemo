@@ -1,0 +1,30 @@
+checkflag _0.tutorial.fails 0
+goto marker 0fails
+checkflag _0.tutorial.fails 1
+goto marker 1fails
+
+goto marker 2fails
+
+
+marker 0fails
+Good work!|p|\nThat microgame was a little tricky.|p| How about a simpler one?
+show_controls
+We're going to test your reflexes with the Spacebar Interface!
+Wait for just the right moment...|p| then SLAM to attention!|p|\nLike you're slamming on a spacebar!|p| Get it?
+goto marker end
+
+marker 1fails
+Hmm...|p| this one can take a few tries...
+Press your "Spacebar" when the lighting changes!|p| Get it?
+show_controls
+Just slam at the right time!
+goto marker end
+
+marker 2fails
+Press your "Spacebar" when the lighting changes!|p| Get it?
+show_controls
+Just slam at the right time!
+goto marker end
+
+marker end
+

@@ -1,0 +1,73 @@
+face p 0 0
+face s 0 1
+s
+line "Ethan,|p| you said you made\nthat costume yourself?"
+l
+line "Yup.|p| It's not perfect,|p|\nbut I like how it came out."
+face p 0 1
+p
+line "It looks good."
+face s 0 1
+s
+line "I agree."
+l
+line "Thanks so much.|p| Kat hasn't been able to appreciate it as much as y'all."
+face k 0 1
+k
+line "I don't appreciate it because\nit's super embarrassing."
+face s 0 0
+s
+line "Hey,|p| that's a little far."
+l
+line "Nah, she's got a point.|p| Wearing it to church wasn't my finest hour."
+face p 0 0
+p
+line "You guys go to church together?"
+face l 0 0
+l
+line "Nah,|p| Kat goes with her grandparents though.|p| I only went the one time."
+face l 1 0
+l
+line "I'd never seen you dressed so formally before then."
+face k 0 0
+k
+line "I don't really want to go,|p| but\nthey always drag me along."
+line "They insisted on taking Ethan\nthat one Sunday too."
+face s 2 1
+s
+line "Oh man,|p| they must've\nregretted that decision."
+face k 0 0
+k
+line "Yeah...|p| Nanna ended up writing an apology letter for the scene it caused."
+face l 0 0
+face s 0 0
+l
+line "It was absolutely funny though.|p|\nOne dude gave me this\nreligious pamphlet."
+face l 1 0
+l
+line "Got it framed in my room."
+face k 0 2
+k
+line "Yeah,|p| they thought your costume was demonic."
+face p 0 2
+p
+line "Man,|p| Blackout city is\nMindscape capital."
+face p 0 0
+p
+line "Everything here is\nplastered with horns."
+face p 0 1
+p
+line "If anything's demonic,|p|\nit's Mindscape Co."
+face l 0 0
+l
+line "Dudeeee you're absolutely right.|p|\nThis whole place is totally demonic."
+line "It's so cool."
+face p 0 4
+p
+line "..."
+setflag _0.slate_kat.read.ABA 1
+setflag _0.slate_kat.branch ABA
+function lobby_tick_time
+goto script 0/lobby/slate_kat/questions
+
+

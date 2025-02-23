@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"quick_score_list_constructor",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"quick_score_list_constructor",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

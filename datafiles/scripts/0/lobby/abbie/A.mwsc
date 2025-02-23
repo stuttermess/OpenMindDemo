@@ -1,0 +1,116 @@
+face s 0 0
+face p 0 0
+s
+line "So,|p| Abbie."
+line "What's up,|p| how are you feeling about the tournament?"
+line "Have you played much before?"
+face a 0 0
+a
+line "Umm...|p| nope!|p| I'm SUPER rusty if anything."
+face a 1 2
+a
+line "The last time I played I actually lost so bad that I broke into tears."
+p
+line "Huh,|p| I could be doing worse."
+face s 2 1
+s
+line "No,|p| I'm pretty sure throwing up and passing out is worse than crying."
+face p 0 2
+p
+line "Not true,|p| I didn't pass out."
+face s 0 1
+s
+line "Okay,|p| you still threw up."
+face a 0 0
+a
+line "That's okay!|p| The game's been hard to get used to for me too."
+face a 1 0
+a
+line "I barely get to play it."
+line "The only arcade my parents can take me to is the one at North Mall."
+s
+line "I hear that one's always super crowded."
+p
+line "Every Mindwave machine in the city is,|p| Smalls."
+face s 2 0
+s
+line "Yeah...|p| Especially this time of year."
+face s 0 0
+s
+line "Plenty of prospective ticket holders who wanna get their practice in."
+face a 1 2
+a
+line "Huh...|p| I never considered I could be practicing for this!"
+face p 0 0
+p
+line "I would call that dumb,|p| but I think you're about as experienced as I am."
+face a 0 0
+a
+line "Good luck to both of us then!"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setflag _0.abbie.read.A 1
+setflag _0.abbie.branch A
+function lobby_tick_time
+goto script 0/lobby/abbie/questions
+
+

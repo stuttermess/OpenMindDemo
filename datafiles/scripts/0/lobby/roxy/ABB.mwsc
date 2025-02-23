@@ -1,0 +1,101 @@
+face p 0 0
+p
+line "Do I even have a chance at winning if I've got like,|p| zero experience?"
+face r 0 0
+r
+line "Well...|p| it's possible?"
+face r 0 1
+r
+line "There's likely a lotta inexperienced people in this place."
+face s 2 1
+s
+line "Yeah,|p| you just gotta hope you don't get matched up with a pro immediately."
+face s 0 0
+s
+line "You'll get your experience while you work your way up the tower."
+face p 1 0
+p
+line "I can't even play the game without it hurting my head."
+face p 1 2
+p
+line "I'm not just suddenly gonna become a pro in a few battles."
+face r 1 0
+r
+line "In my experience,|p| I've found that it takes a specific type of person to play MINDWAVE professionally."
+line "Complacency is a big issue when you're used to playing with the same people."
+face r 1 1
+r
+line "Everyone's different,|p| so I account for that by playing at different arcades around the city."
+face s 1 0
+s
+line "True,|p| I've wanted to visit other arcades to meet some new opponents."
+face r 3 1
+r
+line "Actually,|p| the arcade I've seen you at has been great to visit for opponent variety."
+face r 3 0
+r
+line "You might just be going at the wrong times."
+line "I've played against a few people there who almost completely threw me off."
+face s 0 1
+s
+line "On that note,|p| which arcade have you found has the worst MINDWAVE players?"
+face r 2 1
+r
+line "Definitely North Mall."
+face r 2 0
+r
+line "People in North Blackout tend to view MINDWAVE as more of a gimmick."
+
+checkflag _0.abbie.read.A 1
+goto marker branch1y
+goto marker branch1n
+
+marker branch1y
+
+face p 0 0
+p
+line "Honestly not that surprising."
+face s 0 0
+s
+line "I've heard the lines there aren't great either."
+p
+line "This is a shot in the dark,|p| but have you ever played against this one white haired girl there?"
+face r 2 0
+r
+line "What, like,|p| someone elderly?"
+face p 1 0
+p
+line "No,|p| like,|p| someone our age."
+face p 0 1
+p
+line "White hair,|p| bubbly personality,|p| probably wearing pink and being really loud."
+face s 0 1
+s
+line "Potentially crying at a MINDWAVE machine."
+face r 3 1
+r
+line "No,|p| I don't think I have."
+face r 2 0
+r
+line "Is she an opponent you're worried about or something? "
+face p 0 1
+p
+line "Nah,|p| not really,|p| just gauging my odds."
+
+goto marker branch1e
+
+marker branch1n
+face r 0 1
+r
+line "It's also super expensive.|p|\nWould not recommend it."
+
+goto marker branch1e
+
+marker branch1e
+
+
+setflag _0.roxy.read.ABB 1
+setflag _0.roxy.branch ABB
+function lobby_tick_time
+goto script 0/lobby/roxy/questions
+

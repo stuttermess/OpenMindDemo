@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"story_pause_menu_constructor",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"story_pause_menu_constructor",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

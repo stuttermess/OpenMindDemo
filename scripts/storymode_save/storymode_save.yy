@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"storymode_save",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"storymode_save",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

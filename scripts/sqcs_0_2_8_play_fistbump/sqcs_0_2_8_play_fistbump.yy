@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sqcs_0_2_8_play_fistbump",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sqcs_0_2_8_play_fistbump",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

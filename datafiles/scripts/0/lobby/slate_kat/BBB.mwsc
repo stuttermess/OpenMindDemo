@@ -1,0 +1,74 @@
+face p 0 0
+p
+line "What's your house then?"
+k
+line "What's|p| my house?"
+face p 1 0
+p
+line "Yeah,|p| I dunno."
+k
+line "I don't wanna tell you that."
+face p 0 2
+p
+line "Bro,|p| I'm not asking you for your\naddress or anything like that."
+line "I'm asking what it's like where you live."
+face p 1 2
+p
+line "It just felt like a relevant question."
+k
+line "I still don't wanna tell you that."
+line "I'm not really comfortable telling\nyou about my living situation."
+p
+line "...Okay?"
+line "I don't really know how to continue\nthe conversation then."
+face p 0 2
+p
+line "You're making it kinda difficult."
+k
+line "I'M making it difficult?"
+face p 0 0
+p
+line "..."
+k
+line "...Tell me about yourself then?"
+face p 1 0
+p
+line "Myself?"
+line "I dunno,|p| this place has a weird atmosphere."
+face p 1 2
+p
+line "Not great at talking to new people."
+k
+line "I get that.|p| I wouldn't be here if I were on my own."
+face p 0 0
+p
+line "What else...|p| I play a bit of music."
+face p 0 1
+p
+line "Smalls and I are kind of a duo."
+face k 0 2
+k
+line "Cool.|p| My sense of rhythm was never good enough to play any instruments."
+line "I like painting though.|p| Nothing tangible,|p| just abstract pieces."
+line "I've been doing it for,|p| what?|p| 7 years now?"
+face p 0 0
+p
+line "Cool..."
+face k 0 0
+face p 1 0
+p
+line "I'm also dreading the tournament a little."
+line "Like,|p| more than just losing."
+face k 0 0
+k
+line "What,|p| are you scared of the\nminds you'll encounter?"
+face p 0 0
+p
+line "I'm mostly thinking about the people behind those minds."
+
+setflag _0.slate_kat.read.BBB 1
+setflag _0.slate_kat.branch BBB
+function lobby_tick_time
+setflag _0.pandora.alone 0
+goto script 0/lobby/slate_kat/questions
+

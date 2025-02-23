@@ -1,0 +1,55 @@
+
+face p 0 2
+p
+line "...Talking to that girl might've been a mistake."
+face s 2 0
+s
+line "Aw c'mon,|p| it couldn't have been that bad."
+face s 0 0
+s
+line "You cleared up the line situation,|p| right?"
+face p 0 0
+p
+line "Yeah...|p| I mean,|p| kinda?"
+face p 0 2
+p
+line "I'm still not into the idea of playing against her."
+face p 4 0
+p
+line "I think she might be a serial killer?"
+face s 0 0
+s
+line "Oh,|p| huh?"
+face p 0 0
+p
+line "It was just a joke she made,|p| but it's really hard to tell with her."
+face p 0 2
+p
+line "At least I won't get all thrown off if I go against her."
+face s 1 0
+s
+line "About that..."
+face s 2 0
+s
+line "I don't know if it actually works that way."
+face p 1 0
+p
+line "Soooo...|p| I didn't have to talk to her?"
+face p 1 2
+p
+line "It didn't matter?"
+face s 0 1
+s
+line "Of course it mattered!"
+face s 0 2
+s
+line "You made a friend."
+face p 0 2
+p
+line "I wouldn't call her that."
+setflag _0.smalls.iris 2
+setflag _0.smalls.iris.branch AAAA
+function lobby_tick_time 0.5
+goto script 0/lobby/smalls/return
+
+

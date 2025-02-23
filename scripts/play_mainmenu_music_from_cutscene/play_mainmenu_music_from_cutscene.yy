@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"play_mainmenu_music_from_cutscene",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"play_mainmenu_music_from_cutscene",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

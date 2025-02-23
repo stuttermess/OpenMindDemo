@@ -1,0 +1,51 @@
+
+char pandora p left
+char smalls s right
+
+face s 0 0
+s
+line "Whatcha looking at?|p| The windows?"
+face p 0 0
+p
+line "Yeah,|p| I don't like them."
+face s 2 0
+s
+line "I think you're letting your disdain for this place cloud your judgement."
+face s 0 1
+s
+line "They're just windows, man."
+line "I commend them for the natural light they let in."
+face p 1 0
+p
+line "Any other building would let you walk up to the windows and like,|p| actually look out of them."
+face p 0 0
+p
+line "Not Mindscape though.|p| Why?"
+face p 0 2
+p
+line "Is it their self importance?"
+line "Do they believe that nobody would even THINK about anything else while they're here?"
+face p 1 2
+p
+line "Or are they trying to obscure the fact that this place is creepy as hell?"
+face s 1 0
+s
+line "Maybe they just don't want people getting their handprints all over the glass."
+line "They probably save a fortune on cleaners every year they run this tournament."
+face p 4 0
+p
+line "..."
+face p 0 0
+p
+line "Yeah,|p| those are extremely clean windows."
+line "How do they even clean giant windows like this?"
+face s 0 0
+s
+line "I don't envy the window cleaners in charge of Mindscape Tower."
+face s 0 1
+s
+line "They might be the only people who hate this place more than you do."
+
+setflag _0.windows.done 1
+function lobby_tick_time 0.5
+

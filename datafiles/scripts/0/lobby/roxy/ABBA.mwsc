@@ -1,0 +1,40 @@
+s
+line "We'd better get going."
+face p 0 0
+p
+line "Thanks for the advice.|p| Even if it didn't help much."
+face r 2 0
+r
+line "My last piece of advice,|p| just try not to sweat it."
+face r 3 0
+r
+line "Remember that even professionals can struggle against inexperienced players."
+face r 1 0
+r
+line "Stressing about your odds will only make them worse."
+line "All you can do is be confident in what you have."
+face p 1 0
+p
+line "Uh,|p| thanks."
+face s 0 1
+s
+line "Good luck with the tournament,|p| Roxy."
+face r 0 1
+r
+line "..."
+
+setflag _0.smalls.roxy 1
+setflag _0.roxy.read.ABBA 1
+setflag _0.roxy.done 1
+
+function lobby_tick_time
+
+
+
+
+
+
+
+
+
+

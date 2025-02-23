@@ -1,0 +1,72 @@
+face p 0 1
+p
+line "Honestly, it's kinda cool\nthat you do abstract art."
+face p 0 0
+p
+line "Whenever we're painting in art class,|p| I mess up a ton."
+face p 0 1
+p
+line "It sounds cool to just skip the headache and paint random colors for fun."
+face s 0 1
+checkflag nickname_panda 1
+goto marker branch26y
+goto marker branch26n
+
+marker branch26y
+
+s
+line "Panda,|p| your art assignments are basically abstract already."
+
+goto marker branch26e
+
+marker branch26n
+
+s
+line "Pandora,|p| your art assignments are basically abstract already."
+
+goto marker branch26e
+
+marker branch26e
+
+
+face l 1 0
+l
+line "Dude, Kat's stuff is awesome.|p|\nMy room is FILLED with her paintings."
+face k 0 0
+k
+line "I've been painting for...|p| a little bit now.|p| I have a ton of finished pieces lying around."
+line "I don't really care for my paintings\nafter I finish them."
+line "It's just calming to paint.|p|\nI let it turn out however."
+l
+line "Your art SPEAKS to me.|p|\nIt's so good."
+face p 0 0
+face k 0 1
+k
+line "Whatever nerd,|p| it's less of\na compliment coming\nfrom you."
+face k 0 2
+k
+line "Thanks though."
+face s 0 0
+s
+line "Do you guys ever play MINDWAVE\nagainst each other?"
+face s 0 2
+s
+line "What does the mind of an\nabstract painter look like?"
+k
+line "I've been told it's a little trippy."
+face l 0 0
+l
+line "When we go to the arcade,|p| Kat's opponents are usually SUPER thrown off."
+face s 0 0
+face l 1 0
+l
+line "I just don't see it dude."
+face k 0 1
+k
+line "I think it's just 'cuz you're weird."
+
+setflag _0.slate_kat.read.BAA 1
+setflag _0.slate_kat.branch BAA
+function lobby_tick_time
+goto script 0/lobby/slate_kat/questions
+

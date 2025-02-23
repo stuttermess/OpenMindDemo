@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"get_value_at_struct_path",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"get_value_at_struct_path",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

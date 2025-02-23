@@ -1,0 +1,36 @@
+checkflag _0.tutorial.fails 0
+goto marker 0fails
+checkflag _0.tutorial.fails 1
+goto marker 1fails
+
+goto marker 2fails
+
+
+marker 0fails
+Hey there!|p|\nNow that you're hooked in,|p| we're gonna do a bit of cognitive calibration to get you ready to play!
+We'll take you through the basics of how to play MINDWAVE while we wait for the calibration process to complete.
+MINDWAVE is all about linking with your opponent's mind and experiencing their thoughts,|p| memories,|p| and feelings in quick bursts we call microgames!
+We'll play some microgames from your own mind,|p| for practice!
+show_controls
+Every microgame uses what we call an Interface.|p|\nThey determine how you interact with the microgame!
+Let's try a microgame right now using the Interface shown on the left!|p|\nHopefully it's self-explanatory.
+goto marker end
+
+
+marker 1fails
+Hmm... maybe you're having trouble with the Interface...
+Imagine holding a mouse in your hand, get it?|p|\nThat's what the Interface is for!
+show_controls
+Just circle the little you running around!|p|\n"Click" and "drag!"
+goto marker end
+
+marker 2fails
+Imagine holding a mouse in your hand,|p| get it?|p|\nThat's what the Interface is for!
+show_controls
+Just circle the little you running around!|p|\n"Click" and "drag!"
+goto marker end
+
+
+marker end
+
+

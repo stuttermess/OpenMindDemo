@@ -1,0 +1,131 @@
+set a name mystery
+face s 0 1
+s
+line "How about her?"
+p
+line "Not usually the type of person I'd be talking to."
+face s 0 2
+s
+line "...That's the idea."
+face p 1 2
+p
+line "Ugh..."
+face p 0 2
+p
+line "Sure."
+face p 1 0
+p
+line "But you flag her down."
+face s 2 1
+s
+line "Alright."
+face s 0 0
+s
+line "Yo!"
+face a 1 0
+a
+line "..."
+face a 0 0
+a
+line "Huh?"
+face a 4 2
+a
+line "*GASP*"
+face a 3 1
+a
+line "HIIIII!!!"
+face p 4 0
+p
+line "Hey..."
+a
+line "|speed 1.5|Isn't this place so COOL?"
+face a 1 0
+a
+line "|speed 1.5|The ceiling is so tall!"
+face a 4 1
+a
+line "|speed 1.5|There's so many people!"
+face a 1 0
+a
+line "|speed 1.5|Oh!|p| Purple Girl!"
+line "|speed 1.5|I love your outfit!|p| \nThose spiky bracelets and the moon earrings...|p| so cute!"
+face a 0 0
+a
+line "|speed 1.5|And those colors,|p| it's like you came dressed for the occasion,|p| I love that."
+
+checkflag _0.iris.read.AB 1
+goto marker branch1y
+goto marker branch1n
+
+marker branch1y
+face p 1 0
+p
+line "You're the second person to say that about my clothes,|p| by the way."
+face p 0 1
+p
+line "It's okay though,|p| I guess it's funny.|p| Thank you."
+
+goto marker branch1e
+
+marker branch1n
+face p 0 4
+p
+line "Oh I-"
+face p 4 0
+p
+line "I hadn't thought about that."
+line "Thank you I guess?"
+
+goto marker branch1e
+
+marker branch1e
+face p 0 4
+p
+line "|style color gray|(I don't think I was going for \"cute\" though.)"
+face a 0 0
+a
+line "And I think you look pretty cool too!"
+face a 1 2
+a
+line "..."
+face a 0 0
+a
+line "Oh!|p| I almost forgot,|p| what are your names?"
+face a 1 0
+a
+line "I'm Abbie,|p| I should've led with that,|p| hehe."
+set a name abbie
+face s 0 1
+s
+line "Well,|p| hey Abbie.|p| I'm Smalls,|p| she's Pandora."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setflag _0.abbie.met 1
+incflag _0.chars_met 1
+
+goto script 0/lobby/abbie/questions
+

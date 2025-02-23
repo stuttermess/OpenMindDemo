@@ -1,0 +1,110 @@
+face s 0 0
+s
+line "How exactly did you get your ticket anyway?"
+a
+line "Oh!|p| I got it from this cool hobby shop near me."
+face a 1 0
+a
+line "I didn't have much of my allowance left,|p| so I only got some new sewing needles...|p|"
+
+
+
+allow_player_input 0
+face a 0 0
+a
+line "|speed 2|...and I bought this HUGE BAG of stuffing...|skip| "
+face a 1 0
+a
+line "|speed 2|I also wanted this pink yarn that I got a few months back.|skip| "
+
+
+
+a
+line "|speed 2.5|I was making this set of stuffed bunnies!|skip| "
+face a 1 2
+a
+line "|speed 2.5|They were supposed to line my window, but now that I have a bigger window I HAD to make more!|skip| "
+face a 0 0
+a
+line "|speed 2.5|I just moved here recently.|skip| "
+
+
+face a 2 2
+a
+line "|speed 3|Anyway,|p| they didn't have the exact color of pink yarn I wanted so I bought every color that LOOKED similar.|skip| "
+face a 1 0
+a
+line "|speed 3|It just didn't feel right to try to mimic the old bunnies, so I settled on this cute blue color instead.|skip| "
+face a 4 0
+face p 4 0
+a
+line "|speed 5|Turns out, it compliments the pink ones really well!|skip| "
+
+allow_player_input 1
+
+
+face a 0 0
+a
+line "Oh,|p| by the way,|p| I make plushies!"
+face a 6 2
+a
+line "This is Tommy!"
+face s 0 1
+s
+line "Hi Tommy."
+face a 6 0
+a
+line "..."
+face a 0 0
+a
+line "He says hi back!"
+face p 0 0
+p
+line "You're from North Blackout,|p| right?"
+a
+line "Yeah!|p| I just moved there last month.|p| How did you know?"
+face p 0 1
+p
+line "Lucky guess."
+face s 1 0
+s
+line "So which of those things you bought actually had the ticket?"
+face a 4 0
+a
+line "Oh,|p| right!|p| It was bundled in with this ball of sparkly yarn I got!"
+face s 0 0
+p
+line "Sounds messy."
+face a 1 0
+a
+line "Yep!|p| We're still finding glitter in the back seat."
+face p 0 0
+a
+line "My parents and I were just so excited about the ticket that we didn't notice."
+s
+line "I suppose their excitement wore out?"
+face a 2 2
+a
+line "Yep.|p| They didn't believe in me I guess..."
+face a 0 0
+a
+line "But after a bit of trouble,|p| I got MYSELF here."
+line "And I'm determined to win this thing!"
+face a 3 1
+a
+line "Then,|p| I'm gonna tell my parents I'm moving back home on my own!"
+face a 5 0
+a
+line "They're not getting anything from my prize!"
+face p 0 1
+p
+line "Hell yeah."
+
+
+setflag _0.abbie.read.BA 1
+setflag _0.abbie.branch BA
+function lobby_tick_time
+goto script 0/lobby/abbie/questions
+
+
+

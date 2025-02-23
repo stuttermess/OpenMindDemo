@@ -1,0 +1,13 @@
+
+char pandora p left +45
+set p layer 0
+char smalls s left -70
+char kat k right +67
+char slate l right -48
+set k front_when_speak 0
+
+checkflag _0.slate_kat.met 1
+goto script 0/lobby/slate_kat/approach
+goto script 0/lobby/slate_kat/meet
+
+

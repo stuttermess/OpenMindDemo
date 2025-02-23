@@ -1,0 +1,47 @@
+
+face p 0 2
+p
+line "Did you have to leave me hanging in the middle of a conversation?"
+face p 0 4
+p
+line "I wasn't ready to talk to Kat on my own so suddenly."
+face s 2 0
+s
+line "Ehh,|p| you were probably fine."
+face s 0 2
+s
+line "Right?"
+face p 0 0
+p
+line "..."
+face p 0 2
+p
+line "If I say yes you're gonna use it as like,|p| a gotcha."
+line "I don't wanna encourage you to keep doing stuff like that."
+face s 1 0
+s
+line "Alright, alright."
+face s 0 1
+s
+line "I'll just save my \"I told you so\" for when you end up thanking me later."
+face p 1 0
+p
+line "Man,|p| don't make me regret entertaining this."
+s
+line "I'd apologize,|p| but I don't regret learning about F.O.S from Ethan."
+face s 1 0
+s
+line "We only stopped talking about it 'cuz I didn't want any more spoilers."
+face s 0 1
+s
+line "I was sold the second he told me about the arc where Slate infiltrates the Knelburnian summit."
+p
+line "Just don't dip on me like that again.|p| Please."
+s
+line "No promises."
+
+setflag _0.smalls.slate_kat 2
+setflag _0.smalls.slate_kat.branch BBAA
+function lobby_tick_time 0.5
+goto script 0/lobby/smalls/return
+

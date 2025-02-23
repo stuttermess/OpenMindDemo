@@ -1,0 +1,12 @@
+face p 0 1
+p
+line "Yo,|p| I'm gonna head out for a bit."
+line "Gonna look around to see if I can find something to drink."
+face i 0 1
+i
+line "Sure.|p|\nSee you."
+p
+line "See ya."
+setflag _0.pandora.alone 0
+
+

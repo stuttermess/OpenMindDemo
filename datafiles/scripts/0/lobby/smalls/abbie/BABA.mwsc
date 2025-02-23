@@ -1,0 +1,43 @@
+
+face p 0 0
+p
+line "I don't know why Abbie hugged me like that."
+face p 0 2
+p
+line "Especially so suddenly."
+face s 1 0
+s
+line "I think she's just in need of a friend."
+p
+line "Yeah but like,|p| I just met her."
+face p 1 0
+p
+line "I'm fine with hanging out..."
+face p 1 2
+p
+line "...but I'm not trying to be her new best friend or anything."
+line "I'm not in the market."
+face s 0 2
+s
+line "Aw, Panda...|p| Is that 'cuz you've got one of those already?"
+face p 0 2
+p
+line "Don't use that nickname, man."
+face s 0 0
+s
+line "No can do Panda,|p| it's too good of a nickname."
+face p 0 0
+p
+line "..."
+face p 0 1
+p
+line "Nevermind,|p| I think I'm in the market again."
+
+
+
+
+setflag _0.smalls.abbie 2
+setflag _0.smalls.abbie.branch BABA
+function lobby_tick_time 0.5
+goto script 0/lobby/smalls/return
+

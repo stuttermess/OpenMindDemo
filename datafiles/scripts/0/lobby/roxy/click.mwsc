@@ -1,0 +1,12 @@
+
+char pandora p left +45
+set p layer 0
+char smalls s left -70
+char roxy r right
+
+checkflag _0.roxy.met 1
+goto script 0/lobby/roxy/approach
+goto script 0/lobby/roxy/meet
+
+
+

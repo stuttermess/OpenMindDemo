@@ -1,0 +1,11 @@
+char pandora p left
+char smalls s right
+s
+line "What's up?"
+p
+setflag _0.smalls.anythingelse 0
+goto script 0/lobby/smalls/questions
+
+
+
+

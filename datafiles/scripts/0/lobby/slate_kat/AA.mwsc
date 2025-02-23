@@ -1,0 +1,67 @@
+face s 0 0
+face p 0 0
+p
+line "Okay so...|p| what other plans\ndo you have for your money?"
+face p 0 1
+p
+line "...Other than giving gifts to people who listen to you ramble about cartoons."
+face s 2 0
+s
+line "You say that like it's a bad idea."
+face s 0 1
+s
+line "I'm eligible,|p| right?"
+face l 0 0
+l
+line "Haven't even thought\nabout any of that."
+line "Maybe I'll buy that ultra rare edition of F.O.S I've been eyeing for a while."
+k
+line "You mean the same show you already watch all the time?"
+face p 4 0
+p
+line "Huh,|p| I wonder if the copy my dad\nowns is secretly worth a ton."
+l
+line "Does the cover have an evil\nlooking castle on it?"
+face p 0 0
+p
+line "Nah.|p| I think it was a crystal ball."
+l
+line "You're out of luck there then."
+line "That's the original cut.|p| You'd\nfind that in clearance bins at\nevery vintage electronics store."
+face p 1 0
+p
+line "Damn,|p| it was worth a shot."
+l
+line "F.O.S was a massive flop over here."
+line "So as a last ditch effort,|p| they overhauled the whole show to be-|p 30| |skip| "
+face l 1 0
+k
+line "Actually good?"
+l
+line "Well, possibly.|p|\nI've never seen it!"
+face l 0 0
+l
+line "I hear they polished a ton of it,|p| but everyone lucky enough to own\nit keeps their copies sealed."
+line "So it's impossible to find\nany archives online."
+face p 0 0
+p
+line "That's really lame."
+face p 0 2
+face k 0 0
+p
+line "Why would people waste money\non something just to keep\nit sealed on their shelf?"
+l
+line "Preach it to the choir dude."
+line "If you can't actually use it,|p|\ndo you even own it at all?"
+face l 1 0
+l
+line "Kat's the choir."
+face k 0 1
+k
+line "I'm not."
+
+setflag _0.slate_kat.read.AA 1
+setflag _0.slate_kat.branch AA
+function lobby_tick_time
+goto script 0/lobby/slate_kat/questions
+

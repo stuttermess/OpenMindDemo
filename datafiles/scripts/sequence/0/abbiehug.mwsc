@@ -1,0 +1,24 @@
+
+pause at marker end
+loop start marker loopstart
+loop end marker loopend
+
+wait for marker line1
+speaker_icon abbie
+speaker_voice abbie
+Bye!!!
+speaker_icon pandora
+speaker_voice pandora
+--
+
+BYE
+speaker_icon smalls
+speaker_voice smalls
+See ya around!
+speaker_icon none
+speaker_voice none
+clear
+loop clear
+
+resume
+

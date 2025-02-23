@@ -1,0 +1,10 @@
+checkflag _0.dom.read.AAA 1
+goto script 0/lobby/smalls/dom/AAA
+checkflag _0.dom.read.ABA 1
+goto script 0/lobby/smalls/dom/ABA
+checkflag _0.dom.read.BAA 1
+goto script 0/lobby/smalls/dom/BAA
+checkflag _0.dom.read.BBA 1
+goto script 0/lobby/smalls/dom/BBA
+
+

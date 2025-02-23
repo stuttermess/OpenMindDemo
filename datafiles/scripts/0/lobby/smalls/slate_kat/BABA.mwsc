@@ -1,0 +1,39 @@
+face p 0 1
+p
+line "Kat's kinda cool."
+face s 0 1
+s
+line "Yeah,|p| she's nice."
+line "I would've loved a Platinum Ticket as my birthday gift last year."
+face p 0 2
+p
+line "You didn't need it,|p| you snuck in and you're here anyway."
+face s 2 1
+s
+line "Yeah,|p| but it just weighs so heavily on my conscience."
+face s 0 1
+s
+line "The best gift I got was that sweet vintage cassette player from Lineage Music."
+line "No thanks to you.|p|\nBought it myself."
+face p 0 2
+p
+line "Bro,|p| I was the one who got you the coupon."
+face s 1 0
+s
+line "From how long ago?|p| It was mad expired when I went to use it."
+face p 1 0
+p
+line "Oh,|p| that's my bad.|p|\nI'm a little broke."
+face s 0 1
+s
+line "It's chill.|p| It's the thought that counts."
+face p 0 1
+p
+line "If I win,|p| I'll get you something better this year."
+
+
+setflag _0.smalls.slate_kat 2
+setflag _0.smalls.slate_kat.branch BABA
+function lobby_tick_time 0.5
+goto script 0/lobby/smalls/return
+

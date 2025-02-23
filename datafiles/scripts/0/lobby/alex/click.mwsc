@@ -1,0 +1,234 @@
+char pandora p left +45
+set p layer 0
+char smalls s left -70
+char alex a right
+
+checkflag _0.alex.met 0
+goto marker firstMeet
+goto marker alreadyMet
+
+marker alreadyMet
+p
+line "Please, let's not relive that."
+line " Let's just leave them alone."
+s
+line "...Right."
+goto marker end
+
+
+marker firstMeet
+
+checkflag _0.chars_met 0
+goto marker firstConvo
+goto marker notFirstConvo
+
+
+marker firstConvo
+set a name mystery
+face s 0 0
+face p 0 0
+s
+line "How about we start with them?"
+p
+line "Them?|p| I think I'd rather talk to someone more...|p| approachable."
+face p 0 2
+p
+line "They're wearing headphones."
+line "I don't think they're in the mood to talk."
+face s 0 2
+s
+line "What like you?|p| All the time?"
+p
+line "I don't wear headphones,|p| and I'm talking to you right now."
+face s 0 1
+s
+line "Just put yourself out there."
+face p 1 0
+p
+line "Put myself out there by bothering random people in public?"
+face s 1 0
+s
+line "That's how everyone makes friends, Pandora."
+p
+line "That's contextual though."
+face p 1 2
+p
+line "But sure,|p| we'll see how this goes."
+face s 2 1
+s
+line "I'm right,|p| I'm always right."
+face p 0 0
+p
+line "Uhh,|p| *ahem*|p|\nhey."
+a
+line "..."
+face p 1 2
+p
+line "!!!"
+face s 0 3
+s
+line "You ain't trying hard enough."
+a
+line "Hey um,|p| I could actually hear you two the whole time."
+line "These are open-back."
+line "The correct answer would have been to not bother someone out of the blue."
+line "That's not a good foundation to start a conversation."
+line "..."
+face a 0 1
+a
+line "I'm Alex by the way."
+face s 0 3
+face p 4 0
+p
+line "...Sorry."
+set a name alex
+face a 0 0
+a
+line "It's alright.|p| I would still rather not be bothered."
+face s 0 0
+s
+line "Okay, we've learned our lesson."
+a
+line "It's not about learning a lesson it's more-"
+line "Ah, nevermind,|p| I won't keep you."
+
+set a x -200
+wait 1 second
+face s 0 3
+p
+line "..."
+s
+line "..."
+face p 1 2
+p
+line "\"I'm always right.\""
+face s 0 0
+s
+line "..."
+face s 2 0
+s
+line "That's still true."
+setflag _0.alex.firstSpoken 1
+goto marker endFlags
+
+
+
+
+
+
+marker notFirstConvo
+set a name mystery
+
+face s 0 0
+s
+line "They look cool."
+face p 1 0
+p
+line "Nah,|p| I think they don't wanna be bothered.|p|"
+line "They're wearing headphones."
+face s 0 1
+s
+line "I bet they'd be pleasant to talk to."
+face p 4 0
+p
+line "You'd bet?|p| How much?"
+face s 1 0
+s
+line "Uhhh...|p| how much you got on you?"
+face p 0 0
+p
+line "Just a twenty."
+face s 0 1
+s
+line "Get it ready for me,|p| I got a good feeling about this one."
+face p 1 0
+p
+line "This feels below you."
+face p 0 0
+p
+line "But whatever,|p| we can talk-|p 30| |skip| "
+a
+line "Hello?"
+line "I could actually hear you two this whole time."
+line "These are open-back."
+line "The correct answer here would have been to let me relax before the tournament."
+line "...Also.|p| You should not talk so loudly about someone right in front of them."
+line "I don't want to start an argument,|p| but that can be considered rude."
+line "..."
+face a 0 1
+a
+line "My name is Alex by the way."
+p
+line "...Sorry."
+face a 0 0
+set a name alex
+a
+line "It's alright.|p| I would still rather not be bothered."
+face s 0 0
+s
+line "Yeah my bad.|p| Guess I misread the room."
+face p 0 2
+p
+line "Who could've guessed."
+a
+line "You might want to give the girl her money."
+face s 0 0
+s
+line "Oh yeah..."
+a
+line "Goodbye.|p| I won't keep you."
+
+set a x -200
+wait 1 second
+face s 2 0
+s
+line "I don't got cash on me right now."
+face s 0 1
+face p 0 0
+p
+line "Bum."
+face p 4 0
+p
+line "Can you do transfer?"
+s
+line "Sure.|p| Later."
+
+
+
+
+setflag _0.alex.firstSpoken 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+goto marker endFlags
+
+
+marker endFlags
+function lobby_tick_time 4
+incflag _0.chars_met 1
+setflag _0.alex.met 1
+setflag _0.smalls.alex 1
+marker end

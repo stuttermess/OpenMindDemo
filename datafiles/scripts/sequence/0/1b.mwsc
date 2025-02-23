@@ -1,0 +1,33 @@
+wait for marker line1
+pause
+speaker_voice terminal
+|style font fnt_pixel|Please insert your Platinum Ticket into the slot!
+clear
+resume
+wait for marker line2
+pause
+|style font fnt_pixel|...and insert the cable into your Neural Port!
+clear
+resume
+wait for marker line3
+pause
+|style font fnt_pixel|PLEASE WAIT...
+resume
+clear
+wait for marker info
+pause
+|style font fnt_pixel|SCAN COMPLETE|p|\nCONTESTANT NAME:|p| PANDORA
+|style font fnt_pixel|REGISTERED TO TICKET NUMBER 7263672|p|\n(BREEZE COLA CARBONATED REFRESHMENT)
+|style font fnt_pixel|(VENDING 6-A24 IN BLACKOUT CITY EAST)
+speaker_icon pandora
+speaker_voice pandora
+... creepy...
+speaker_icon none
+resume
+text_auto 1
+speaker_voice terminal
+|style font fnt_pixel|INITIATING CALIBRATION SEQUENCE.
+wait for marker textclear
+clear
+
+

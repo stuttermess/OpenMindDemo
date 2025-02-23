@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"ibtG_voice_elevator_open",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.7596145,
+  "name":"ibtG_voice_elevator_open",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"ibtG_voice_elevator_open.ogg",
+  "type":1,
+  "volume":0.8,
+}

@@ -1,0 +1,7 @@
+wait for marker line1
+text_auto 1
+speaker_voice terminal
+|style font fnt_pixel|CALIBRATION COMPLETE.
+wait for marker fadeout
+clear
+

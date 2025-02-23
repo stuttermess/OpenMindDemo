@@ -1,0 +1,43 @@
+face s 0 1
+s
+line "Ethan,|p| Kat,|p| it was nice meeting you."
+face l 0 0
+l
+line "Same dude.|p| Good luck with the game you two."
+face p 0 0
+s
+line "Kat,|p| I hope you can get that studio of yours if you win. "
+face k 0 2
+k
+line "Thanks."
+l
+line "It would be so sweet.|p| I'll make sure Kat installs a flat screen in there."
+line "Then I'll invite y'all over for a Fortress of Sorrow binge session. "
+face k 0 1
+k
+line "Yeah,|p| I'm not doing that."
+line "I wouldn't be able to focus on my art with you watching your stupid show there. "
+face k 0 2
+k
+line "The rest of you are invited though."
+face l 1 0
+l
+line "Dude, Kat,|p| you KNOW I can't invite anyone to my place to chill."
+line "Maybe I'll just have to beat you so that it'll be YOU borrowing MY studio. "
+face k 0 1
+k
+line "Yeah?|p| We'll see which of us wins then."
+s
+line "Hahaha."
+face s 2 1
+s
+line "See you guys."
+face l 0 0
+l
+line "Peace."
+
+setflag _0.smalls.slate_kat 1
+setflag _0.slate_kat.done 1
+setflag _0.slate_kat.read.BAAA 1
+function lobby_tick_time
+

@@ -1,0 +1,80 @@
+face s 0 0
+face p 1 0
+p
+line "It's kinda...|p| weird to think about everyone here."
+line "Like, we all basically won the\nlottery to get in here..."
+face p 1 2
+p
+line "...but there's only gonna be one\nwinner out of this massive crowd."
+face s 1 0
+s
+line "Yeah,|p| all these people may as\nwell pack it up and go home."
+face s 0 1
+s
+line "I'm the one winning this thing."
+l
+line "It's easy to forget how insanely\nlucky it is that Kat and I got\nin here at all."
+face p 1 0
+k
+line "You two must feel the same though."
+face s 2 1
+s
+line "Yeah,|p| we're all blessed for sure."
+face l 1 0
+l
+line "Kat found tickets for both of us."
+face s 0 0
+face l 0 0
+l
+line "So she's really the lucky one."
+k
+line "Gave my first ticket to Ethan 'cuz\nI don't like the idea of strangers\nlooking into my brain."
+face l 1 0
+l
+line "Dude,|p| that was the best\nbirthday gift of the year."
+face k 0 1
+k
+line "It was the only birthday gift you got."
+face s 0 1
+s
+line "Happy late birthday."
+face k 0 0
+k
+line "Anyway, when I found the second ticket,|p| I decided I'd be stupid to\npass this up twice."
+l
+line "Glad you didn't dude.|p| I'd be bored outta my mind if you didn't show up tonight."
+face l 0 0
+l
+line "Beats being at home though."
+k
+line "You're lucky I'm so lucky."
+face k 0 1
+k
+line "Don't fumble it."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setflag _0.slate_kat.read.B 1
+setflag _0.slate_kat.branch B
+function lobby_tick_time
+goto script 0/lobby/slate_kat/questions
+
+

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"value_to_keyframes",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"value_to_keyframes",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_endlessresults",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":42.7422,
+  "name":"mus_endlessresults",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_endlessresults.ogg",
+  "type":1,
+  "volume":1.0,
+}

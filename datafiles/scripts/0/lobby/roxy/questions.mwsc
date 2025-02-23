@@ -1,0 +1,69 @@
+r
+options clear
+checkflag _0.roxy.branch 0
+goto marker 0
+checkflag _0.roxy.branch A
+goto marker A
+checkflag _0.roxy.branch AA
+goto marker AA
+checkflag _0.roxy.branch AB
+goto marker AB
+checkflag _0.roxy.branch AAA
+goto marker AAA
+checkflag _0.roxy.branch AAB
+goto marker AAB
+checkflag _0.roxy.branch ABA
+goto marker ABA
+checkflag _0.roxy.branch ABB
+goto marker ABB
+
+
+
+
+
+marker 0
+option add name "MINDWAVE hurts my head" color pandora script "0/lobby/roxy/A"
+options shuffle
+option add name "Bye" script "0/lobby/roxy/bye"
+goto marker end
+
+marker A
+option add name "Side Effects?" color pandora script "0/lobby/roxy/AA"
+option add name "MINDWAVE Pointers" color smalls script "0/lobby/roxy/AB"
+options shuffle
+option add name "Bye" script "0/lobby/roxy/bye"
+goto marker end
+
+marker AA
+option add name "MINDWAVE Advice" color pandora script "0/lobby/roxy/AAA"
+option add name "Roxy's Mind" color smalls script "0/lobby/roxy/AAB"
+options shuffle
+option add name "Bye" script "0/lobby/roxy/bye"
+goto marker end
+
+marker AB
+option add name "Varsity Team" color smalls script "0/lobby/roxy/ABA"
+option add name "Roxy's Skill" color pandora script "0/lobby/roxy/ABB"
+options shuffle
+option add name "Bye" script "0/lobby/roxy/bye"
+goto marker end
+
+marker AAA
+option add name "Bye" script "0/lobby/roxy/AAAA"
+goto marker end
+marker AAB
+option add name "Bye" script "0/lobby/roxy/AABA"
+goto marker end
+marker ABA
+option add name "Bye" script "0/lobby/roxy/ABAA"
+goto marker end
+marker ABB
+option add name "Bye" script "0/lobby/roxy/ABBA"
+goto marker end
+
+marker end
+
+
+
+
+options show

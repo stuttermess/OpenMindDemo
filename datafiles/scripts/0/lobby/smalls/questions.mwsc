@@ -1,0 +1,158 @@
+
+
+face p 0 0
+
+face s 0 0
+p
+options clear
+setflag _0.smalls.optionscount 0
+
+checkflag _0.smalls.q1 1
+goto marker addQ1
+goto marker skipQ1
+marker addQ1
+checkflag _0.smalls.optionscount 3
+goto marker skipQ1
+option add name "Here we are..." script "0/lobby/smalls/q1"
+incflag _0.smalls.optionscount 1
+marker skipQ1
+
+checkflag _0.smalls.q2 1
+goto marker addQ2
+goto marker skipQ2
+marker addQ2
+checkflag _0.smalls.optionscount 3
+goto marker skipQ2
+option add name "You snuck in." script "0/lobby/smalls/q2"
+incflag _0.smalls.optionscount 1
+marker skipQ2
+
+checkflag _0.smalls.abbie 1
+goto marker addAbbie
+goto marker skipAbbie
+marker addAbbie
+checkflag _0.smalls.optionscount 3
+goto marker skipAbbie
+option add name "Abbie" script "0/lobby/smalls/abbie"
+incflag _0.smalls.optionscount 1
+marker skipAbbie
+
+checkflag _0.smalls.alex 1
+goto marker addAlex
+goto marker skipAlex
+marker addAlex
+checkflag _0.smalls.optionscount 3
+goto marker skipAlex
+option add name "Alex..." script "0/lobby/smalls/alex"
+incflag _0.smalls.optionscount 1
+marker skipAlex
+
+checkflag _0.smalls.dom 1
+goto marker addDom
+goto marker skipDom
+marker addDom
+checkflag _0.smalls.optionscount 3
+goto marker skipDom
+option add name "Dom" script "0/lobby/smalls/dom"
+incflag _0.smalls.optionscount 1
+marker skipDom
+
+checkflag _0.smalls.iris 1
+goto marker addIris
+goto marker skipIris
+marker addIris
+checkflag _0.smalls.optionscount 3
+goto marker skipIris
+option add name "The girl I held up" script "0/lobby/smalls/iris"
+incflag _0.smalls.optionscount 1
+marker skipIris
+
+checkflag _0.smalls.roxy 1
+goto marker addRoxy
+goto marker skipRoxy
+marker addRoxy
+checkflag _0.smalls.optionscount 3
+goto marker skipRoxy
+option add name "Roxy" script "0/lobby/smalls/roxy"
+incflag _0.smalls.optionscount 1
+marker skipRoxy
+
+checkflag _0.smalls.slate_kat 1
+goto marker addSlateKat
+goto marker skipSlateKat
+marker addSlateKat
+checkflag _0.smalls.optionscount 3
+goto marker skipSlateKat
+
+
+checkflag _0.slate_kat.read.AAAA 1
+option add name "Slate" script "0/lobby/smalls/slate_kat"
+checkflag _0.slate_kat.read.AABA 1
+option add name "Slate" script "0/lobby/smalls/slate_kat"
+checkflag _0.slate_kat.read.ABAA 1
+option add name "Slate" script "0/lobby/smalls/slate_kat"
+
+checkflag _0.slate_kat.read.ABBA 1
+option add name "Kat" script "0/lobby/smalls/slate_kat"
+checkflag _0.slate_kat.read.BAAA 1
+option add name "Kat" script "0/lobby/smalls/slate_kat"
+checkflag _0.slate_kat.read.BABA 1
+option add name "Kat" script "0/lobby/smalls/slate_kat"
+checkflag _0.slate_kat.read.BBAA 1
+option add name "Kat" script "0/lobby/smalls/slate_kat"
+checkflag _0.slate_kat.read.BBBA 1
+option add name "Kat" script "0/lobby/smalls/slate_kat"
+checkflag _0.pandora.kat 1
+option add name "Kat..." script "0/lobby/smalls/slate_kat"
+
+incflag _0.smalls.optionscount 1
+marker skipSlateKat
+
+
+
+checkflag _0.smalls.anythingelse 1
+goto marker addNope
+goto marker addNevermind
+
+marker addNope
+
+
+checkflag _0.smalls.optionscount 0
+goto marker nothingElse
+
+option add name "Nope." marker "nothingElse"
+
+
+goto marker afterNope
+marker addNevermind
+option add name "Nevermind." marker "nevermind"
+
+marker afterNope
+setflag _0.smalls.anythingelse 0
+options show
+
+marker nevermind
+
+face p 0 0
+p
+line "Actually,|p| nevermind."
+
+face s 2 1
+s
+line "Heh,|p| okay."
+goto marker end
+
+marker nothingElse
+
+face p 0 0
+p
+line "Nah,|p| that's all I got."
+
+face s 0 0
+s
+line "Okay,|p| cool."
+goto marker end
+
+
+
+marker end

@@ -1,0 +1,48 @@
+
+face p 1 0
+p
+line "Y'know,|p| the reason I apologized is 'cuz I didn't want to be embarrassed."
+line "Like,|p| if I had to play against you later."
+face p 0 0
+p
+line "I honestly don't have much experience with MINDWAVE."
+face p 0 2
+p
+line "So I don't wanna take chances with stuff like that."
+face i 0 2
+i
+line "How did that go for you?"
+face p 0 4
+p
+line "I don't think I'd be embarrassed now,|p| at least."
+face p 0 0
+p
+line "I still don't wanna play against you."
+i
+line "...Why?|p| Am I scary?"
+p
+line "No...|p| you're just kinda weird."
+face p 0 1
+p
+line "But it's chill.|p|\nYou seem stable enough."
+face i 2 0
+i
+line "Oh."
+face i 1 0
+i
+line "Yeah,|p| I can see that."
+face i 0 0
+i
+line "You don't have a reason to worry."
+line "I only play this game with my friends.|p| Occasionally."
+line "Only the well-adjusted ones at that."
+
+
+
+setflag _0.iris.read.AA 1
+setflag _0.iris.branch AA
+function lobby_tick_time
+goto script 0/lobby/iris/questions
+
+
+

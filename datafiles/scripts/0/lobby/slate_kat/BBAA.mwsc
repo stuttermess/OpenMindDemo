@@ -1,0 +1,47 @@
+
+face k 0 0
+k
+line "I think Ethan and I are gonna head out for now."
+face k 0 2
+k
+line "He had an interesting story to tell me about the tubes on the ceiling."
+face l 1 0
+l
+line "OH,|p| dude, yeah."
+face s 0 1
+s
+line "That's all good."
+line "Pandora,|p| the MINUTE we get outta this tournament we're watching F.O.S."
+face p 0 4
+p
+line "Dude,|p| really?"
+face s 0 2
+s
+line "Yeah,|p| it's the first thing I wanna do after I win this thing."
+line "Hell,|p| we could leave right now, too."
+face p 0 2
+p
+line "You wanna throw your chances of winning to watch a cartoon?"
+face k 0 2
+k
+line "Trust me Smalls,|p| Ethan makes it sound more interesting than it really is."
+face s 0 1
+s
+line "I'll just have to see for myself."
+face l 0 0
+l
+line "Bye dudes."
+face p 0 0
+p
+line "Bye."
+s
+line "Cya!"
+face k 1 0
+k
+line "Peace."
+
+setflag _0.smalls.slate_kat 1
+setflag _0.slate_kat.done 1
+setflag _0.slate_kat.read.BBAA 1
+function lobby_tick_time
+

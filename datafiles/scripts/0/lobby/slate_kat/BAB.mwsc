@@ -1,0 +1,83 @@
+face s 1 0
+s
+line "Alright,|p| I should probably ask..."
+face s 0 0
+s
+line " ...are you guys brother and sister?"
+face k 0 1
+face l 1 0
+k
+line "..."
+face k 0 0
+face l 0 0
+k
+line "...are YOU guys siblings?"
+face p 4 0
+face s 0 3
+s
+line "..."
+face p 0 1
+face s 2 0
+s
+line "Okay,|p| point taken."
+face s 1 0
+s
+line "Still,|p| that's the vibe I get."
+face s 0 0
+s
+line "You get what I mean,|p| right?"
+face l 0 0
+l
+line "Dude,|p| I look absolutely nothing like Kat."
+k
+line "Yeah,|p| Ethan's wayyyy taller than me."
+l
+line "Yup,|p| both of my older bros are around my height.|p| My younger brother is getting there too."
+face k 0 2
+k
+line "Pshht,|p| yeah.|p| You hail from a family of freaks."
+face p 0 0
+p
+line "How do you guys know each other then?"
+l
+line "Kat was the new kid I think in uhhh..."
+face k 0 0
+k
+line "3rd grade.|p| It was 7 years ago."
+face l 1 0
+l
+line "Yeah,|p| it was 3rd grade.|p| She showed up a few months into the school year."
+face l 0 0
+l
+line "We ended up paired together for a group project.|p| Nobody else wanted to be partners with either of us."
+face s 0 0
+s
+line "Damn,|p| why?|p| You guys are cool."
+l
+line "Classmates didn't love how much I'd talk about the shows I was into."
+face l 1 0
+l
+line "They didn't seem to like Kat either.|p| I've got no clue why,|p| Kat's super chill."
+line "Real easy to talk to."
+face l 0 0
+l
+line "So we just ended up sticking\ntogether."
+face k 0 2
+k
+line "We got an A on that project \nby the way."
+face s 0 1
+s
+line "Sweet."
+l
+line "I did most of the work."
+face k 0 0
+k
+line "I listened to you ramble about whatever show you were into that week."
+line "We basically put in equal effort."
+
+setflag _0.slate_kat.read.BAB 1
+setflag _0.slate_kat.branch BAB
+function lobby_tick_time
+goto script 0/lobby/slate_kat/questions
+
+

@@ -1,0 +1,67 @@
+p
+line "So,|p| Mindscape Tower...|p| Here we are."
+face s 1 0
+s
+line "Yeah.|p| The inside is crazy looking."
+p
+line "I wonder how many people have actually set foot in here?"
+face s 0 1
+s
+line "Besides the thousand-something invited annually?"
+face p 0 2
+p
+line "Yes,|p| besides them."
+face p 1 2
+p
+line "It's just a really secretive place.|p| Doesn't feel like we're supposed to be here."
+
+face p 1 0
+p
+line "It's not something you ever think about.|p| You just see it on the skyline."
+line "Evil-ass tower with a freaky glowy eye."
+face p 0 2
+p
+line "We're INSIDE the evil-ass tower,|p| isn't that weird??"
+face s 0 0
+s
+line "Yeah,|p| but you weren't gonna miss this opportunity,|p| were you?"
+face p 0 0
+p
+line "Nope.|p| I ain't gonna pass up the opportunity to take Mindscape's cash."
+line "Even if they are kinda evil."
+face s 1 0
+s
+line "How evil are they, though?"
+face s 0 0
+s
+line "The branding is super weird,|p|\nbut all they did was make a game."
+p
+line "Is there any other company as transparently evil?"
+face s 2 0
+s
+line "Probably,|p| but I couldn't name any off the top of my head."
+face p 0 2
+p
+line "Okay,|p| helpful."
+face s 2 1
+s
+line "..."
+
+
+
+setflag _0.smalls.q1 2
+function lobby_tick_time 0.5
+goto script 0/lobby/smalls/return
+
+
+
+
+
+
+
+
+
+
+
+
+

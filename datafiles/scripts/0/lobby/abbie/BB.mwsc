@@ -1,0 +1,88 @@
+face p 0 0
+p
+line "You...|p| snuck out?"
+face p 4 0
+p
+line "Like,|p| you just slipped through the door and hopped on the subway?"
+face a 0 0
+a
+line "Well,|p| it was the window,|p| but pretty much!|p|"
+face p 0 1
+p
+line "You don't really seem like the type of person who'd do that."
+line "Like,|p| at all."
+a
+line "Why not?|p| Before we moved here,|p| I'd sneak out all the time!"
+line "My friend used to ask me pretty much every night."
+face s 0 1
+s
+line "You get invited to a lot of parties?"
+face a 2 2
+a
+line "Nope!|p| I never got invited to parties."
+face a 0 0
+a
+line "In fact,|p| I don't think any of my classmates in my hometown partied at all?"
+face a 1 2
+face s 0 0
+a
+line "Everyone knew each other's parents,|p| so it was hard to get away with much."
+face p 0 2
+p
+line "Where...|p| were you going at night then?"
+face a 0 0
+a
+line "Just the park!"
+face a 1 0
+a
+line "We had plenty of time to hang out during the day,|p| but it was special having it to ourselves."
+face a 1 2
+a
+line "Our town was really peaceful at night."
+face p 1 0
+p
+line "I couldn't imagine that...|p| The car horns and sirens around this city are never ending."
+face a 0 0
+a
+line "Ohhh!|p| We heard sirens too."
+face a 2 2
+a
+line "Neighbor called the cops on us,|p| and I got grounded for a month!"
+line "I was so mad at Jenny that I didn't talk to her for an entire day."
+face a 1 2
+a
+line "But I think it's kinda funny now.|p|\nI miss moments like that."
+face a 0 0
+a
+line "So I decided to bring it back myself tonight by sneaking out!"
+face s 0 1
+s
+line "Hell yeah."
+face a 1 0
+a
+line "I guess I'm not alone right now though."
+face a 1 0
+a
+line "And,|p| you know..."
+face a 0 0
+a
+line "...you remind me of her, Panda!"
+face p 0 0
+p
+line "...?"
+
+
+
+
+
+
+
+setflag nickname_panda 1
+setflag _0.abbie.read.BB 1
+setflag _0.abbie.branch BB
+function lobby_tick_time 2
+goto script 0/lobby/abbie/questions
+
+
+
+

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"play_mus_cs0_3_afterlobby",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"play_mus_cs0_3_afterlobby",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

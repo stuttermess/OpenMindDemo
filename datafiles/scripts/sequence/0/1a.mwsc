@@ -1,0 +1,37 @@
+wait for marker line1
+pause
+speaker_voice announcer
+|style font fnt_pixel|Contestants!
+resume
+pause at marker panEnd
+|style font fnt_pixel|MINDWAVE tournaments consist of hundreds of other lucky people like you!
+no_text_continue_until marker panEnd
+|style font fnt_pixel|So please remember to remain lined up in an orderly fashion and remain patient!
+resume
+clear
+pause at marker spaceout_effect
+wait for marker line4
+|style font fnt_pixel|Make sure to have your Platinum Ticket ready before the scanning process, and do not skip others!
+wait for marker spaceout_effect
+|style font fnt_pixel|When you arrive at a terminal you will be guided through our identity verification process...
+speaker_voice normal
+...
+......
+Can you move?
+...
+text_wavy 0 0
+resume
+clear
+no_text_continue_until marker startleEnd
+pause at marker startleEnd
+Hey.
+It's your turn.|p| Can you move?
+clear
+resume
+wait for marker terminalDialogue
+pause
+speaker_voice terminal
+|style font fnt_pixel|Welcome to the Mindscape Tower tournament entry system!
+|style font fnt_pixel|Please step forward to this terminal to get started!
+resume
+

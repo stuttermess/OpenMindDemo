@@ -1,0 +1,30 @@
+checkflag _0.abbie.read.AAAA 1
+goto script 0/lobby/smalls/abbie/AAAA
+checkflag _0.abbie.read.ABAA 1
+goto script 0/lobby/smalls/abbie/ABAA
+checkflag _0.abbie.read.ABBA 1
+goto script 0/lobby/smalls/abbie/ABBA
+checkflag _0.abbie.read.BAAA 1
+goto script 0/lobby/smalls/abbie/BAAA
+checkflag _0.abbie.read.BABA 1
+goto script 0/lobby/smalls/abbie/BABA
+checkflag _0.abbie.read.BBA 1
+goto script 0/lobby/smalls/abbie/BBA
+
+
+
+
+
+
+
+
+
+
+
+
+
+setflag _0.smalls.abbie 2
+setflag _0.smalls.abbie.branch AAAA
+function lobby_tick_time 0.5
+goto script 0/lobby/smalls/return
+

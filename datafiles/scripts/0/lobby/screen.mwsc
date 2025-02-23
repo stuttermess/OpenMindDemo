@@ -1,0 +1,66 @@
+char pandora p left
+char smalls s right
+s
+line "A screen with a clock."
+p
+line "A screen with a clock."
+line "..."
+face p 1 2
+p
+line "We've all got phones,|p| what's the point?"
+face s 2 0
+checkflag nickname_panda 1
+goto marker branch26y
+goto marker branch26n
+
+marker branch26y
+
+s
+line "Panda,|p| that's pretty reductive."
+
+goto marker branch26e
+
+marker branch26n
+
+s
+line "Pandora,|p| that's pretty reductive."
+
+goto marker branch26e
+
+marker branch26e
+
+face s 1 0
+s
+line "It's for the style,|p| y'know?"
+line "The grandness of it all."
+face s 0 2
+s
+line "We're HERE.|p| In Mindscape Tower!"
+line "The ten million dollar tournament is minutes away!|p| We're in a huge room!"
+face p 0 0
+p
+line "...and everything has horns.|p|\nWhat is it with Mindscape Co. and horns?"
+face s 1 0
+s
+line "It's branding.|p| That's pretty obvious."
+face s 0 0
+s
+line "It's a style thing too.|p| We could go back and forth on this forever."
+face p 1 0
+p
+line "I'd really rather not."
+face s 0 2
+s
+line "Admitting defeat, I see."
+line "Choose your next words very carefully."
+p
+line "...Dude.|p| You're being weird."
+line "Stop being a corporate shill-|p| and-"
+face p 0 3
+p
+line "Forget I asked about the damn screen."
+setflag _0.screen.done 1
+function lobby_tick_time 0.5
+
+
+

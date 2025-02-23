@@ -1,0 +1,222 @@
+
+
+face s 0 1
+face p 0 2
+p
+line "So,|p| what the hell,|p| have you just been showing your song to everyone?"
+d
+line "Nah,|p| just you two so far."
+face p 0 2
+d
+line "Since you were already talking about me,|p| I thought you might like it."
+face d 0 0
+d
+line "Plus,|p| I thought you looked cool."
+p
+line "Thank you?"
+face p 0 0
+p
+line "You do know that you got lucky with us,|p| right?"
+face d 0 1
+d
+line "What do you mean?"
+p
+line "Someone else could have found that annoying as hell."
+line "Especially with everyone being so on edge in here."
+face p 0 2
+p
+line "Like,|p| what if someone punched you in the face for doing that?"
+face d 0 0
+d
+line "I dunno,|p| you don't seem that on edge."
+face p 1 0
+face d 0 1
+d
+line "Maybe 'cuz my track's a vibe?"
+face p 0 4
+p
+line "..."
+face p 0 0
+p
+line "Okay, man."
+face p 1 0 
+p
+line "I actually thought it was kinda neat."
+face p 0 2
+p
+line "But you really need to rethink how you promote yourself."
+face s 1 0
+s
+line "I thought it was pretty effective, myself."
+face s 1 0
+s
+line "Certainly left an impression.|p|\nWe could give it a try."
+face p 1 0
+p
+line "Nuh uh,|p| that's a non-starter."
+face p 1 2
+p
+line "I'm not trying to have my teeth knocked out over music promotion."
+face s 2 1
+s
+line "I'll get us mouth guards or something."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setflag _0.dom.read.A 1
+setflag _0.dom.branch A
+function lobby_tick_time
+goto script 0/lobby/dom/questions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

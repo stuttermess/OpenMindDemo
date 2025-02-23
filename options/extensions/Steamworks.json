@@ -1,0 +1,40 @@
+{
+  "$GMExtensionConfigSet": "GMExtensionConfigSet",
+  "configurables": {
+    "b484e583-494e-4113-908c-177b681e8b36": null,
+    "c62d2fde-739b-455d-a495-bfdc30751caa": null,
+    "5d3d28d4-b6c5-4a72-8544-a5ac7a83f58c": null,
+    "6504fddb-d527-46b6-abc7-c75d20882699": null,
+    "92103586-8660-49a3-a11d-3028708c4d1c": null,
+    "3da6c587-e65f-498a-a56c-acf0cffce1b5": null,
+    "e5006ccb-19de-4e24-a0f6-2c5fec86b19a": null,
+    "cc670763-2884-440d-a191-e13482c41932": null,
+    "79bf11cd-a393-46eb-a1e1-25760ab25d5a": null,
+    "5c285abd-e971-4e78-9504-f06bacf8666a": null,
+    "6d85fc60-caba-4fa1-be78-f03cc5a60305": null,
+    "9d8cdb9f-c152-4eda-a370-9e5451fa420c": null,
+    "fc7d5b5e-1344-49ee-bca6-8579b0c68d50": null,
+    "2d6a1c61-98e7-4289-8eff-d70ef6dac1ff": {
+      "Default": {
+        "value": "steamsdk"
+      }
+    },
+    "c37a2e1d-c82f-4d90-9d0a-b4a2b3b3da08": null,
+    "2d512363-a8c0-4025-8b9f-b53e231b025d": {
+      "Default": {
+        "value": "2741670"
+      }
+    },
+    "96a61e5d-c4ac-4104-b5ac-c8ef936e2609": null,
+    "6fb808c0-c204-4477-9ad2-f05b3a5b9eeb": null,
+    "4bf243ec-4e30-4c6d-86fd-9207893f0784": null,
+    "3c048609-3c36-48e2-88c3-d1c216e84e6b": null,
+    "33aac3da-b966-4c5f-8c9a-f3835e1e003d": null,
+    "16d61f9e-45d0-40f7-9efd-c932ad7ed8ba": null,
+    "f1101d61-b736-4c04-ad9a-f798fac10055": null,
+    "377d973f-31ca-4355-aba6-217f0172aae8": null,
+    "f070764a-195d-45ff-b522-1e3f22cba09c": null,
+    "a675bafd-d65f-4f79-97c5-3f65e3e15551": null,
+    "fab932ce-9c6b-4633-a029-090fc01624d7": null
+  }
+}

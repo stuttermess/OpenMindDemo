@@ -1,0 +1,15 @@
+
+face p 0 0
+p
+line "Hey,|p| Dom,|p| we gotta go real quick."
+face d 0 0
+d
+line "Aight.|p| See you."
+face s 0 1
+s
+line "Later."
+
+
+
+
+

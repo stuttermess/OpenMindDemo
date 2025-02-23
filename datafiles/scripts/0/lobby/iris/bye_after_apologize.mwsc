@@ -1,0 +1,16 @@
+face p 1 2
+p
+line "Uh,|p| yeah,|p| that's pretty much all I wanted to do.  "
+face p 0 0
+p
+line "So I think I'll leave for now,|p| my friend's waiting for me right there."
+face i 0 0
+i
+line "That's okay with me. "
+face p 0 4
+p
+line "Yeah,|p| see you around I guess."
+i
+line "See you."
+setflag _0.pandora.alone 0
+

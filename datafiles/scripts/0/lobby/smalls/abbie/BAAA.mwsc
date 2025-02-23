@@ -1,0 +1,45 @@
+
+face s 0 0
+s
+line "It was nice of Abbie to offer that."
+line "North Blackout is a little pricey."
+face p 1 0
+p
+line "Yeah,|p| but I'd feel kinda bad about using her money on myself."
+face p 1 2
+p
+line "Well,|p| I probably wouldn't feel THAT bad."
+face p 0 0
+p
+line "But if we're gonna hang out with Abbie,|p| I don't wanna feel like she's buying our friendship."
+s
+line "Yeah,|p| I get what you mean."
+p
+line "I'd rather just hang out with her in our area."
+face p 4 0
+p
+line "Even if there's some cool things to do up north..."
+face s 1 0
+s
+line "I got a friend who saved up his money for a vacation up there."
+face s 0 0
+s
+line "He stayed at the crappiest hotel 'cuz he couldn't afford anywhere else."
+face p 0 2
+p
+line "Blackout City is the worst place for a vacation, man."
+face s 0 0
+s
+line "Yeah, that's what I told him."
+face s 0 1
+s
+line "Especially because he already lives here."
+line "An hour away from North Blackout at that."
+
+
+
+setflag _0.smalls.abbie 2
+setflag _0.smalls.abbie.branch BAAA
+function lobby_tick_time 0.5
+goto script 0/lobby/smalls/return
+

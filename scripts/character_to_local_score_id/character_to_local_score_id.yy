@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"character_to_local_score_id",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"character_to_local_score_id",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

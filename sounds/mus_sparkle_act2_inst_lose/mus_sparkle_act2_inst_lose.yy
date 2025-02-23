@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_sparkle_act2_inst_lose",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":56.401375,
+  "name":"mus_sparkle_act2_inst_lose",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":48000,
+  "soundFile":"mus_sparkle_act2_inst_lose.ogg",
+  "type":1,
+  "volume":1.0,
+}

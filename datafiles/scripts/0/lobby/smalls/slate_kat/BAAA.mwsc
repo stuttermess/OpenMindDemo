@@ -1,0 +1,50 @@
+face p 0 1
+face p 0 1
+p
+line "Kat's kinda cool."
+face p 0 0
+p
+line "If it wasn't so messy,|p| I'd totally be into painting for fun."
+face s 0 1
+s
+line "Music is abstract in its own way."
+face s 0 0
+s
+line "It's a lot less messy as well."
+p
+line "Playing random notes is kinda fun sometimes..."
+line "...but I like when the music we make actually sounds like something."
+face s 0 1
+s
+line "For sure."
+face p 1 0
+p
+line "She seems like a scary opponent though..."
+face p 1 2
+p
+line "If it's as trippy as it sounds,|p|\nI might puke again."
+face s 1 0
+s
+line "I wouldn't be that worried about the idea of competing against Kat."
+face p 0 2
+p
+line "Why?|p| Even if she wasn't more experienced than me,|p| she's clearly more lucky."
+face p 0 0
+p
+line "She won the lottery twice by finding two tickets."
+s
+line "Maybe that's exactly why you don't gotta worry."
+face s 2 1
+s
+line "Her luck is bound to run out eventually."
+face p 1 0
+p
+line "That's not how it works bro."
+
+
+
+setflag _0.smalls.slate_kat 2
+setflag _0.smalls.slate_kat.branch BAAA
+function lobby_tick_time 0.5
+goto script 0/lobby/smalls/return
+

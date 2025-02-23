@@ -1,0 +1,94 @@
+face p 0 0
+p
+line "I noticed your necklace."
+line "Are you religious?"
+face p 1 0
+p
+line "Not that I'd have a problem with that."
+face i 0 1
+i
+line "I just think it looks cool."
+line "Crosses are a cool shape."
+line "I'm probably closer to being agnostic,|p| if anything."
+face i 1 0
+i
+line "Though,|p| I'm not the type of person to think a lot about that stuff."
+p
+line "Yeah,|p| same."
+face i 0 3
+i
+line "My parents are pretty religious."
+face i 1 0
+i
+line "They think this place is some sort of satanic site."
+face i 2 0
+i
+line "Because of the horns."
+line "...and the big creepy eye that appears sometimes."
+face i 0 3
+i
+line "But they let me go when I reminded them about the money."
+face p 0 0
+p
+line "I mean,|p| this IS an evil-ass building."
+face i 0 1
+i
+line "I prefer it over yet another gray slab clogging the skyline."
+line "Besides,|p| I'd expect you to be the last person to criticize how the tower looks."
+face p 0 2
+p
+line "Huh?"
+i
+line "With those colors and the spikes,|p| you look like you're trying to cosplay the tower."
+checkflag _0.abbie.met 1
+goto marker branch1Y
+goto marker branch1N
+
+marker branch1Y
+face p 0 2
+p
+line "You're literally the second person to tell me this tonight."
+face p 1 0 
+p
+line "I'm not even offended.|p| I'm just like,|p| shocked?"
+face i 0 1
+i
+line "Yeah I meant no offense.|p| It's not how I'd dress but it's cool."
+face p 0 0
+p
+line "I just don't think we look that similar?"
+line "Like,|p| I guess the purple's there,|p| but that's it."
+line "And that's a pretty superficial similarity."
+face p 0 2
+p
+line "Mindscape has all this yellow and fuchsia going on which makes it look like..."
+line "More of an evil circus,|p| or something.|p| No way I look that insane."
+face p 1 0
+p
+line "No way I look that soulless or insane."
+goto marker branch1E
+
+marker branch1N
+face p 0 0
+p
+line "What?|p| No way."
+face p 1 0
+p
+line "No way I look that soulless or insane."
+face p 1 2
+p
+line "This tower has like,|p| more of an evil circus vibe."
+goto marker branch1E
+
+marker branch1E
+i
+line "Fair.|p| I'm not fond of Mindscape either."
+line "I like their game though."
+
+setflag _0.iris.read.AB 1
+setflag _0.iris.branch AB
+function lobby_tick_time
+goto script 0/lobby/iris/questions
+
+
+

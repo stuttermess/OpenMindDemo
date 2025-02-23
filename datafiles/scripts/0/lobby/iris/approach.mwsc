@@ -1,0 +1,60 @@
+
+set p x 0
+set s x -200
+
+checkflag _0.iris.branch 0
+goto marker seenQ1N
+goto marker seenQ1Y
+
+marker seenQ1N
+face p 4 0
+p
+line "|style color gray|(Okay, I'm gonna try this again)"
+face p 1 2
+p
+line "Hey."
+face i 0 2
+i
+line "...Hi again..."
+goto marker end
+
+marker seenQ1Y
+checkflag _0.iris.branch A
+goto marker awkwardHi
+checkflag _0.iris.branch A2
+goto marker awkwardHi
+
+face i 0 1
+i
+line "Did you find anything cool?"
+face p 0 0
+p
+line "Not really."
+line "Bunch of cables on the ceiling."
+line "Not even one vending machine here."
+i
+line "Pretty dire. "
+goto marker end
+
+
+
+marker awkwardHi
+face p 0 4
+p
+line "..."
+face i 0 0 
+i
+line "..."
+setflag _0.iris.branch A2
+goto marker end
+
+
+
+marker end
+setflag _0.pandora.alone 1
+goto script 0/lobby/iris/questions
+
+
+
+
+

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mt4_snd_lunge",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":2.307687,
+  "name":"mt4_snd_lunge",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mt4_snd_lunge.ogg",
+  "type":1,
+  "volume":0.8,
+}

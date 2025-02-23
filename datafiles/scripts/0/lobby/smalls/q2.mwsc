@@ -1,0 +1,101 @@
+p
+line "So.|p| You snuck in."
+set s pose 2
+face s 0 1
+s
+line "I did!"
+
+set p pose 1
+p
+line "First off.|p|\nWhy?"
+line "That's the type of thing you'd chastise me for even thinking of doing."
+face s 0 0
+s
+line "Yeah,|p| but I knew you'd have an awful time here without me."
+line "Especially because you almost passed out last time you played."
+face p 1 0
+p
+line "I wasn't even close to passing out...|p|\nI just threw up."
+s
+line "Well,|p| if I got a headache so bad it made me puke,|p| I'd at least want a friend there to comfort me."
+
+face p 0 2
+p
+line "So you'll call the paramedics if I die."
+face s 0 0
+s
+line "Nah,|p| my phone's not picking up service here."
+
+face s 2 1
+s
+line "But you can complain to me anytime."
+face p 1 2
+p
+line "I'll be dead. "
+
+face s 0 0
+s
+line "Yeah."
+line "If a game was so bad it killed you,|p| I'd hope you complain. "
+face p 0 0
+p
+line "Oh you wouldn't hear the end of it, dude."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setflag _0.smalls.q2 2
+function lobby_tick_time 0.5
+goto script 0/lobby/smalls/return
+
+

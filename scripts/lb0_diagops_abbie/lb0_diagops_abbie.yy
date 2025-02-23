@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"lb0_diagops_abbie",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"lb0_diagops_abbie",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

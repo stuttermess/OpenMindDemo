@@ -1,0 +1,26 @@
+face s 0 0
+s
+line "We'd better get going."
+face p 1 0
+p
+line "Thanks for the advice.|p| Even if I'm hopeless."
+face r 2 0
+r
+line "Well,|p| I wouldn't say you're hopeless."
+line "You certainly won't get as far as you could with that mindset."
+face r 2 1
+r
+line "Don't undersell how easily the mind can influence itself."
+face s 0 0
+s
+line "Good luck with the tournament, Roxy."
+face r 0 1
+r
+line "..."
+
+setflag _0.smalls.roxy 1
+setflag _0.roxy.read.AAAA 1
+setflag _0.roxy.done 1
+
+function lobby_tick_time
+

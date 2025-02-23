@@ -1,0 +1,55 @@
+face p 0 2
+p
+line "I think that varsity team girl is the scariest one here."
+face s 0 0
+s
+line "Roxy?|p| She's not scary,|p| she's cool."
+face p 1 0
+p
+line "No,|p| I don't mean like,|p| scary as a person..."
+line "I mean scary as an opponent."
+face p 0 0
+p
+line "As a person,|p| she was fine enough..."
+face p 0 2
+p
+line "Though I'm also wary of someone as into MINDWAVE as she is."
+face s 0 1
+s
+line "Nah man, MINDWAVE is cool too."
+face s 0 0
+s
+line "I think you play guitar for the same reasons Roxy plays MINDWAVE."
+line "I think for professional players,|p| it's their own form of self expression."
+face p 0 4
+p
+line "I don't think it's similar at all.|p| Music is an actual art form."
+face p 0 2
+p
+line "Plus,|p| playing the guitar doesn't make me nauseous."
+face s 0 1
+s
+line "I'd assume at her level,|p| there's probably some creativity involved in her playstyle."
+face p 1 0
+p
+line "Maybe?|p| I wouldn't really know..."
+line "There's too many people here with more experience than me."
+face s 2 0
+s
+line "Depending on the bracket layout,|p| you might cruise through the tournament without going against her."
+face s 0 1
+s
+line "If that helps."
+face p 0 0
+p
+line "It doesn't help."
+face p 1 0
+p
+line " 'Cuz if that happened I'd just be going against the person who beat her instead."
+
+
+setflag _0.smalls.roxy 2
+setflag _0.smalls.roxy.branch ABAA
+function lobby_tick_time 0.5
+goto script 0/lobby/smalls/return
+

@@ -1,0 +1,19 @@
+checkflag _0.slate_kat.read.AAAA 1
+goto script 0/lobby/smalls/slate_kat/AAAA
+checkflag _0.slate_kat.read.AABA 1
+goto script 0/lobby/smalls/slate_kat/AABA
+checkflag _0.slate_kat.read.ABAA 1
+goto script 0/lobby/smalls/slate_kat/ABAA
+checkflag _0.slate_kat.read.ABBA 1
+goto script 0/lobby/smalls/slate_kat/ABBA
+checkflag _0.slate_kat.read.BAAA 1
+goto script 0/lobby/smalls/slate_kat/BAAA
+checkflag _0.slate_kat.read.BABA 1
+goto script 0/lobby/smalls/slate_kat/BABA
+checkflag _0.slate_kat.read.BBAA 1
+goto script 0/lobby/smalls/slate_kat/BBAA
+checkflag _0.slate_kat.read.BBBA 1
+goto script 0/lobby/smalls/slate_kat/BBBA
+checkflag _0.pandora.kat 1
+goto script 0/lobby/smalls/slate_kat/BBA
+

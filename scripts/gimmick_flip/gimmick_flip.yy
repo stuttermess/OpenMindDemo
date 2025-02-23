@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"gimmick_flip",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"gimmick_flip",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

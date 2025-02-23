@@ -1,0 +1,43 @@
+face p 1 0
+p
+line "One thing I'm thinking about..."
+face p 0 0
+p
+line "Why does Roxy play MINDWAVE?"
+line "She seems well aware of the potential harm."
+face s 1 0
+s
+line "You should've asked her instead of me."
+face p 0 2
+p
+line "I dunno,|p| maybe it would've been rude."
+face p 1 2
+p
+line "MINDWAVE seems like her whole passion."
+face s 2 0
+s
+line "If I had to guess,|p| I don't think it's that different from your passions."
+face p 0 2
+p
+line "Disagree completely.|p| Music is an actual art form."
+line "Plus,|p| playing the guitar doesn't make me nauseous."
+face s 0 2
+s
+line "MINDWAVE doesn't give your fingers calluses."
+face s 0 0
+s
+line "You had to deal with the pain for a while when you were first learning."
+face s 1 0
+s
+line "It's just something you had to power through to get to where you are now."
+face p 0 0
+p
+line "..."
+line "Nah,|p| still disagree.|p| It's different."
+
+
+setflag _0.smalls.roxy 2
+setflag _0.smalls.roxy.branch ABAA
+function lobby_tick_time 0.5
+goto script 0/lobby/smalls/return
+

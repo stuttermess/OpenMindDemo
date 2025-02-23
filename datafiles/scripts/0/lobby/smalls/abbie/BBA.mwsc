@@ -1,0 +1,58 @@
+
+face p 1 0
+p
+line "Panda..."
+face s 1 0
+s
+line "Panda."
+face s 0 1
+s
+line "Has a ring to it,|p| doesn't it?"
+face p 0 2
+p
+line "Man,|p| I dunno."
+s
+line "You're gonna have to get used to it if we're hanging out with Abbie later."
+face s 0 2
+s
+line "Why not start now?"
+face p 0 0
+p
+line "About that..."
+face p 1 0
+p
+line "Abbie is like,|p| from a completely different world to ours."
+line "I don't think she'd fit in well with us."
+face p 1 2
+p
+line "Maybe we'd be a bad influence on her?"
+face s 1 0
+s
+line "Nah.|p| The only crimes we commit are loitering and jaywalking."
+face p 0 2
+p
+line "You also snuck in here bro."
+face s 2 1
+s
+line "Yeah but this is a one time thing."
+face s 0 0
+s
+line "Abbie is a repeat offender."
+face s 0 1
+s
+line "If anything,|p| she'd be a bad influence on us."
+setflag _0.smalls.abbie 2
+setflag _0.smalls.abbie.branch BBA
+function lobby_tick_time 0.5
+goto script 0/lobby/smalls/return
+
+
+
+
+
+
+
+
+
+
+

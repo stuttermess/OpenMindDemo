@@ -1,0 +1,53 @@
+face p 0 0
+face s 0 0
+p
+line "Okay,|p| the most important thing I gotta ask."
+face p 0 2
+p
+line "Do the headaches ever go away?"
+face r 1 0
+r
+line "Headaches?|p| Are you sure you're hydrated enough?"
+face p 1 2
+p
+line "I'm plenty hydrated..."
+face r 0 0
+r
+line "I don't know many people who get headaches from MINDWAVE."
+face r 0 1
+r
+line "I've seen it happen,|p| but only after longer sessions."
+face p 0 2
+p
+line "It's happened to me both times I've tried to play."
+line "Happened just a bit ago."
+face p 0 4
+face s 0 2
+s
+line "Maybe you're hurting your own head by overcomplicating things."
+face p 1 2
+p
+line "Or maybe MINDWAVE is just unsafe and unhealthy to play."
+face r 1 0
+r
+line "You're both right, to an extent."
+line "Your experience with MINDWAVE is contingent on the headspace you're in."
+face r 1 1
+r
+line "You're not gonna have a good experience when you're opposed to playing it."
+face r 1 0
+r
+line "Though inversely,|p| adapting yourself to MINDWAVE too much can also be harmful."
+face s 1 0
+s
+line "You mean there's long term side effects to playing?"
+face p 1 2
+p
+line "Yeahhhh, this isn't really swaying me."
+
+
+setflag _0.roxy.read.A 1
+setflag _0.roxy.branch A
+function lobby_tick_time
+goto script 0/lobby/roxy/questions
+

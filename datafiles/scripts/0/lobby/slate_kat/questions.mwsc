@@ -1,0 +1,127 @@
+l
+options clear
+checkflag _0.slate_kat.branch 0
+goto marker 0
+checkflag _0.slate_kat.branch A
+goto marker A
+checkflag _0.slate_kat.branch B
+goto marker B
+checkflag _0.slate_kat.branch AA
+goto marker AA
+checkflag _0.slate_kat.branch AB
+goto marker AB
+checkflag _0.slate_kat.branch BA
+goto marker BA
+checkflag _0.slate_kat.branch BB
+goto marker BB
+checkflag _0.slate_kat.branch AAA
+goto marker AAA
+checkflag _0.slate_kat.branch AAB
+goto marker AAB
+checkflag _0.slate_kat.branch ABA
+goto marker ABA
+checkflag _0.slate_kat.branch ABB
+goto marker ABB
+checkflag _0.slate_kat.branch BAA
+goto marker BAA
+checkflag _0.slate_kat.branch BAB
+goto marker BAB
+checkflag _0.slate_kat.branch BBA
+goto marker BBA
+checkflag _0.slate_kat.branch BBB
+goto marker BBB
+
+marker 0
+checkflag _0.Ethan 1
+goto marker 2y
+goto marker 2n
+marker 2y
+option add name "''Ethan''" color smalls script "0/lobby/slate_kat/AB"
+goto marker 2e
+marker 2n
+option add name "''Fortress of Sorrow''" color smalls script "0/lobby/slate_kat/A"
+marker 2e
+option add name "The Tournament?" color pandora script "0/lobby/slate_kat/B"
+options shuffle
+option add name "Bye" script "0/lobby/slate_kat/bye"
+goto marker end
+
+marker A
+option add name "Slate's Prize Money" color pandora script "0/lobby/slate_kat/AA"
+options shuffle
+option add name "Bye" script "0/lobby/slate_kat/bye"
+goto marker end
+
+marker B
+checkflag _0.Ethan 1
+goto marker 1y
+goto marker 1n
+marker 1y
+option add name "MINDWAVE Prize Money" color smalls script "0/lobby/slate_kat/BA"
+goto marker 1e
+marker 1n
+option add name "Slate's Home" color pandora script "0/lobby/slate_kat/BB"
+goto marker 1e
+marker 1e
+option add name "Bye" script "0/lobby/slate_kat/bye"
+goto marker end
+
+marker AA
+option add name "Bye" script "0/lobby/slate_kat/AABA"
+goto marker end
+
+marker AB
+option add name "''Slate'' Cosplay" color smalls script "0/lobby/slate_kat/ABA"
+option add name "''Slate'' in MINDWAVE" color pandora script "0/lobby/slate_kat/ABB"
+options shuffle
+option add name "Bye" script "0/lobby/slate_kat/bye"
+goto marker end
+
+marker BA
+option add name "Kat's Abstract Art" color pandora script "0/lobby/slate_kat/BAA"
+option add name "Are you siblings?" color smalls script "0/lobby/slate_kat/BAB"
+options shuffle
+option add name "Bye" script "0/lobby/slate_kat/bye"
+goto marker end
+
+marker BB
+option add name "..." color pandora script "0/lobby/slate_kat/BBA"
+option add name "Your House?" color pandora script "0/lobby/slate_kat/BBB"
+options shuffle
+option add name "Bye" script "0/lobby/slate_kat/nsmlbye"
+goto marker end
+
+marker AAA
+option add name "Bye" script "0/lobby/slate_kat/AAAA"
+goto marker end
+
+marker AAB
+option add name "Bye" script "0/lobby/slate_kat/AABA"
+goto marker end
+
+marker ABA
+option add name "Bye" script "0/lobby/slate_kat/ABAA"
+goto marker end
+
+marker ABB
+option add name "Bye" script "0/lobby/slate_kat/ABBA"
+goto marker end
+
+marker BAA
+option add name "Bye" script "0/lobby/slate_kat/BAAA"
+goto marker end
+
+marker BAB
+option add name "Bye" script "0/lobby/slate_kat/BABA"
+goto marker end
+
+marker BBA
+option add name "Bye" script "0/lobby/slate_kat/BBAA"
+goto marker end
+
+marker BBB
+option add name "Bye" script "0/lobby/slate_kat/BBBA"
+goto marker end
+
+marker end
+options show

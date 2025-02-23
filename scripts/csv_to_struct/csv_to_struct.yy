@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"csv_to_struct",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"csv_to_struct",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

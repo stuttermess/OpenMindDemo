@@ -1,0 +1,4 @@
+checkflag _0.alex.firstSpoken 1
+goto script 0/lobby/smalls/alex/A
+goto script 0/lobby/smalls/alex/B
+

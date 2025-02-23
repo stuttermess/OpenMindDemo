@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shd_combo_minigame_transition",
+  "name":"shd_combo_minigame_transition",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/Shaders.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

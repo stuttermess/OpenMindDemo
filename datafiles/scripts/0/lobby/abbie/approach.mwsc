@@ -1,0 +1,19 @@
+face s 0 1
+s
+line "Hey,|p| we're back."
+face a 0 0
+a
+line "Hey guys!|p| What's up?"
+
+
+
+
+
+
+
+
+
+
+
+goto script 0/lobby/abbie/questions
+

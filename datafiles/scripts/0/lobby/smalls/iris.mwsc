@@ -1,0 +1,7 @@
+checkflag _0.iris.read.AAAA 1
+goto script 0/lobby/smalls/iris/AAAA
+checkflag _0.iris.read.ABAA 1
+goto script 0/lobby/smalls/iris/ABAA
+
+
+
