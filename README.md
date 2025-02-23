@@ -10,8 +10,8 @@ OpenMindDemo is licensed under [CC BY 4.0](https://creativecommons.org/licenses/
 (This one's optional if you're gonna install it from the website or Steam, which you need to decide.)
 
 # Known Issues and Things
-### "Variable _draw(100013, -2147483648) not set before reading it."
-Draw function in multiple scripts, i don't know how to fix that so feel free to make a PR.
+### "Variable <unknown_object>_draw(100013, -2147483648) not set before reading it."
+Error by not finding the draw function in one of the minigames, i don't know how to fix that so feel free to make a PR.
 
 ### Unorganized
 GameMaker project is unorganized, also lazy to organize, so feel free to make a PR for that too.
